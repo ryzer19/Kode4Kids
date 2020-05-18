@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F51B6D02472DF9800E71907 /* PNHG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F51B6CF2472DF9800E71907 /* PNHG.png */; };
 		7FD1D70B2471C6C8009739DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD1D70A2471C6C8009739DB /* AppDelegate.swift */; };
 		7FD1D70D2471C6C8009739DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD1D70C2471C6C8009739DB /* SceneDelegate.swift */; };
 		7FD1D70F2471C6C8009739DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD1D70E2471C6C8009739DB /* ViewController.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F51B6CF2472DF9800E71907 /* PNHG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PNHG.png; path = ../../../Desktop/PNHG.png; sourceTree = "<group>"; };
+		7F51B6D12472DFB200E71907 /* PNHG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PNHG.png; sourceTree = "<group>"; };
 		7FD1D7072471C6C8009739DB /* Kode4Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kode4Kids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD1D70A2471C6C8009739DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FD1D70C2471C6C8009739DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 		7FD1D6FE2471C6C8009739DB = {
 			isa = PBXGroup;
 			children = (
+				7F51B6CF2472DF9800E71907 /* PNHG.png */,
 				7FD1D7092471C6C8009739DB /* Kode4Kids */,
 				7FD1D7202471C6CA009739DB /* Kode4KidsTests */,
 				7FD1D72B2471C6CA009739DB /* Kode4KidsUITests */,
@@ -99,6 +103,7 @@
 		7FD1D7092471C6C8009739DB /* Kode4Kids */ = {
 			isa = PBXGroup;
 			children = (
+				7F51B6D12472DFB200E71907 /* PNHG.png */,
 				7FD1D70A2471C6C8009739DB /* AppDelegate.swift */,
 				7FD1D70C2471C6C8009739DB /* SceneDelegate.swift */,
 				7FD1D70E2471C6C8009739DB /* ViewController.swift */,
@@ -232,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F51B6D02472DF9800E71907 /* PNHG.png in Resources */,
 				7FD1D7172471C6CA009739DB /* LaunchScreen.storyboard in Resources */,
 				7FD1D7142471C6CA009739DB /* Assets.xcassets in Resources */,
 				7FD1D7122471C6C8009739DB /* Main.storyboard in Resources */,
