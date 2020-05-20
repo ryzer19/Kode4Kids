@@ -57,20 +57,56 @@ class RegisterViewController: UIViewController {
         Utilities.styleTextField(City)
         Utilities.styleFilledButton(RegisterButton)
         
+    }
+    
+    //check all fields & validate data is correctly formatted
+        //if the format is not correct, ErrorLabel is displayed
+    func validateFields() -> String? {
+        
+        //check all fields are not empty
+        if fullName.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            Email.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            Password.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            PhoneNo.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            DateOfBirth.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            City.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
+        {
+            
+            return "Please fill in all fields"
+    }
+        //check password is secure
+                let securePassword = Password.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+                
+                if Utilities.isPasswordValid(securePassword) == false {                 //password isn't secure enough
+                    return "Please make sure your password is: atleast 8 characters & a number."
+                }
+                
+        //check email contains '@'
+        
+        return nil
+    }
+    
+    @IBAction func RegisterTapped(_ sender: Any) {
+        //validate all fields
+        let error = validateFields()
+        
+        if error != nil{
+            
+            //problem with fields, show error message
+            showError(error!)
+        }
+        else{
+            
+        }
+        //create user & add to db
+        
+        //move to login page
         
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func showError(_ message:String){
+        ErrorLabel.text = message
+        ErrorLabel.alpha = 1
     }
-    */
-
-    @IBAction func RegisterTapped(_ sender: Any) {
-    }
+    
 }
