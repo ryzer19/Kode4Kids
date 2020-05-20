@@ -1,0 +1,6 @@
+framework module Pods_Kode4KidsTests {
+  umbrella header "Pods-Kode4KidsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

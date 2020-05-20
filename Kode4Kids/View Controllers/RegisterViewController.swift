@@ -40,6 +40,24 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        setUpElements()
+            
+    }
+    
+    func setUpElements(){
+        //makes error label invisible
+        ErrorLabel.alpha = 0
+        
+        //styles elements
+        Utilities.styleTextField(fullName)
+        Utilities.styleTextField(Email)
+        Utilities.styleTextField(Password)
+        Utilities.styleTextField(PhoneNo)
+        Utilities.styleTextField(DateOfBirth)
+        Utilities.styleTextField(City)
+        Utilities.styleFilledButton(RegisterButton)
+        
+        
     }
     
 

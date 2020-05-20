@@ -27,7 +27,20 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Do any additional setup after loading the view.
+        setUpElements()
+        
+    }
+    
+    func setUpElements(){
+        //makes error label invisible
+        ErrorLabel.alpha = 0
+        
+        //styles elements
+        Utilities.styleTextField(Email)
+        Utilities.styleTextField(Password)
+        Utilities.styleFilledButton(LoginButton)
     }
     
 
