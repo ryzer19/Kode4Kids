@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.swift
+//  HomeViewController.swift
 //  Kode4Kids
 //
 //  Created by Ryan Johnston on 19/05/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

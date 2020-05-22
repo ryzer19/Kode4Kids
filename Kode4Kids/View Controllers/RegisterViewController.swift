@@ -15,26 +15,19 @@ class RegisterViewController: UIViewController {
     
     @IBOutlet weak var fullName: UITextField!
     
-    
-    @IBOutlet weak var Email:
-        UITextField!
-    
+    @IBOutlet weak var Email: UITextField!
     
     @IBOutlet weak var Password: UITextField!
     
     @IBOutlet weak var PhoneNo: UITextField!
     
-    
     @IBOutlet weak var DateOfBirth: UITextField!
     
-    @IBOutlet weak var City:
-        UITextField!
-    
+    @IBOutlet weak var City: UITextField!
     
     @IBOutlet weak var RegisterButton: UIButton!
     
     @IBOutlet weak var ErrorLabel: UILabel!
-    
     
     @IBOutlet weak var LoginPageLabel: UILabel!
     
@@ -80,8 +73,8 @@ class RegisterViewController: UIViewController {
                 let securePassword = Password.text!.trimmingCharacters(in: .whitespacesAndNewlines)
                 
                 if Utilities.isPasswordValid(securePassword) == false {                 //password isn't secure enough
-                    return "Please make sure your password is: atleast 8 characters & a number."
-                }
+                    return "Please make sure your password is at least 8 characters, contains a special character and a number."
+        }
                 
         //check email contains '@'
         
@@ -97,10 +90,18 @@ class RegisterViewController: UIViewController {
             //problem with fields, show error message
             showError(error!)
         }
-        else{
+        else {
+            
+            //create validated versions of data
+            let fullNameField = fullName.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let EmailField = Email.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let PasswordField = Password.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let PhoneNoField = PhoneNo.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let DateOfBirthField = DateOfBirth.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let CityField = City.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             
             //create user & add to db
-            Auth.auth().createUser(withEmail: <#T##String#>, password: <#T##String#>) { (result, err) in
+            Auth.auth().createUser(withEmail: EmailField, password: PasswordField) { (result, err) in
                 
                 //check for errors
                 if err != nil {
@@ -108,21 +109,35 @@ class RegisterViewController: UIViewController {
                     self.showError("Error creating the user")
                 }
                 else{
+                    //user was created successfully
+                    let db = Firestore.firestore()
                     
+                    db.collection("users").addDocument(data: ["fullName":fullNameField,"Email":EmailField,"PhoneNo":PhoneNoField,"DateOfBirth":DateOfBirthField,"City":CityField, "userID": result!.user.uid]) { (error) in
+                        
+                        if error != nil {
+                            //show error message
+                            self.showError("Data can't be saved to DB successfully")
+                        }
+                    }
+                    
+                    //move to login page
+                    self.goToHome()
                 }
-    
             }
-                //user was created successfully
-            
+                        
         }
-        //move to login page
-        
     }
     
     func showError(_ message:String){
         ErrorLabel.text = message
         ErrorLabel.alpha = 1
     }
-    
+    func goToHome(){
+       
+       let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+        
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
 }
 
