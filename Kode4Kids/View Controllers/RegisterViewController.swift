@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FirebaseAuth
+import Firebase
 
 class RegisterViewController: UIViewController {
 
@@ -97,9 +99,22 @@ class RegisterViewController: UIViewController {
         }
         else{
             
+            //create user & add to db
+            Auth.auth().createUser(withEmail: <#T##String#>, password: <#T##String#>) { (result, err) in
+                
+                //check for errors
+                if err != nil {
+                    //error when creating the user
+                    self.showError("Error creating the user")
+                }
+                else{
+                    
+                }
+    
+            }
+                //user was created successfully
+            
         }
-        //create user & add to db
-        
         //move to login page
         
     }
@@ -110,3 +125,4 @@ class RegisterViewController: UIViewController {
     }
     
 }
+

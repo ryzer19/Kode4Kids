@@ -19,37 +19,37 @@
                                 <rect key="frame" x="50" y="244" width="314" height="418"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NE4-jw-bnx">
-                                        <rect key="frame" x="0.0" y="0.0" width="314" height="41"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="39.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SEZ-qo-hFG">
-                                        <rect key="frame" x="0.0" y="51" width="314" height="41"/>
+                                        <rect key="frame" x="0.0" y="49.5" width="314" height="39.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bAH-09-tOa">
-                                        <rect key="frame" x="0.0" y="102" width="314" height="41"/>
+                                        <rect key="frame" x="0.0" y="99" width="314" height="40"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone No." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JGN-ml-eQu">
-                                        <rect key="frame" x="0.0" y="153" width="314" height="41.5"/>
+                                        <rect key="frame" x="0.0" y="149" width="314" height="39.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B0J-rT-JT1">
-                                        <rect key="frame" x="0.0" y="204.5" width="314" height="41"/>
+                                        <rect key="frame" x="0.0" y="198.5" width="314" height="39.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lsL-ng-yiG">
-                                        <rect key="frame" x="0.0" y="255.5" width="314" height="41"/>
+                                        <rect key="frame" x="0.0" y="248" width="314" height="39.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HN4-dz-0lW">
-                                        <rect key="frame" x="0.0" y="306.5" width="314" height="41"/>
+                                        <rect key="frame" x="0.0" y="297.5" width="314" height="50"/>
                                         <color key="backgroundColor" red="0.36862745099999999" green="1" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="gfG-uX-AFj"/>
@@ -80,7 +80,6 @@
                                 <color key="tintColor" red="0.36862745099999999" green="1" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="JGN-ml-eQu" firstAttribute="height" secondItem="NE4-jw-bnx" secondAttribute="height" id="6dZ-ke-gER"/>
-                                    <constraint firstItem="HN4-dz-0lW" firstAttribute="height" secondItem="NE4-jw-bnx" secondAttribute="height" id="Ja9-dK-YnM"/>
                                     <constraint firstItem="lsL-ng-yiG" firstAttribute="height" secondItem="NE4-jw-bnx" secondAttribute="height" id="hqc-Ib-Cac"/>
                                     <constraint firstItem="bAH-09-tOa" firstAttribute="height" secondItem="NE4-jw-bnx" secondAttribute="height" id="kK9-3m-lny"/>
                                     <constraint firstItem="B0J-rT-JT1" firstAttribute="height" secondItem="NE4-jw-bnx" secondAttribute="height" id="tqt-mc-qym"/>
@@ -221,16 +220,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="NNk-EI-JOg">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="NNk-EI-JOg">
                                 <rect key="frame" x="40" y="344" width="334" height="318"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xR3-zY-oOP">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="47"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="52"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MQU-GH-Gwn">
-                                        <rect key="frame" x="0.0" y="67" width="334" height="47"/>
+                                        <rect key="frame" x="0.0" y="67" width="334" height="52"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
@@ -248,13 +247,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ERROR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aO9-Jg-Wnb">
-                                        <rect key="frame" x="0.0" y="204" width="334" height="47"/>
+                                        <rect key="frame" x="0.0" y="199" width="334" height="52"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not registered? Click here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Us5-cj-rlx">
-                                        <rect key="frame" x="0.0" y="271" width="334" height="47"/>
+                                        <rect key="frame" x="0.0" y="266" width="334" height="52"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
