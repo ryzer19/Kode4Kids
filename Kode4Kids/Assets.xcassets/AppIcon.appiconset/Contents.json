@@ -31,11 +31,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "K4KAppIconSmall.jpg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "K4KAppIcon.jpg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
