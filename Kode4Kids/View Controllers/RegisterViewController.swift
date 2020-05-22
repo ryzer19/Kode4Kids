@@ -72,13 +72,16 @@ class RegisterViewController: UIViewController {
         //check password is secure
                 let securePassword = Password.text!.trimmingCharacters(in: .whitespacesAndNewlines)
                 
-                if Utilities.isPasswordValid(securePassword) == false {                 //password isn't secure enough
-                    return "Please make sure your password is at least 8 characters, contains a special character and a number."
+                if Utilities.isPasswordValid(securePassword) == false {
+                    //password isn't secure enough
+                    return "Please make sure your password is at least 6 characters, contains a special character and a number."
         }
                 
-        //check email contains '@'
         
+        //check email contains '@'
         return nil
+        
+        
     }
     
     @IBAction func RegisterTapped(_ sender: Any) {
