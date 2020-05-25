@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
@@ -44,7 +45,24 @@ class LoginViewController: UIViewController {
         
         //validate all fields
         
+        //
+        let EmailField = Email.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let PasswordField = Password.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         //sign user in
-        
+        Auth.auth().signIn(withEmail: EmailField, password: PasswordField) { (result, error) in
+            
+            if error != nil {
+                //couldn't sign in
+                self.ErrorLabel.text = error!.localizedDescription
+                self.ErrorLabel.alpha = 1
+            }
+            else {
+
+                let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+                
+                self.view.window?.rootViewController = homeViewController
+                self.view.window?.makeKeyAndVisible()
+            }
+        }
     }
 }

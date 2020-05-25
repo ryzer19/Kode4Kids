@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xro-7l-cg6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xro-7l-cg6">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -220,7 +220,7 @@
         <!--Login View controller-->
         <scene sceneID="r0h-Xc-aQF">
             <objects>
-                <viewController title="Login view controller" id="8kK-vz-cEN" userLabel="Login View controller" customClass="LoginViewController" customModule="Kode4Kids" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" title="Login view controller" id="8kK-vz-cEN" userLabel="Login View controller" customClass="LoginViewController" customModule="Kode4Kids" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LN8-ed-wyv" userLabel="View">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -342,7 +342,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="YTw-R9-YVa"/>
-        <segue reference="smc-4c-JbH"/>
+        <segue reference="WuO-nF-iIw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Kode4KidsLogo.png" width="1024" height="576"/>

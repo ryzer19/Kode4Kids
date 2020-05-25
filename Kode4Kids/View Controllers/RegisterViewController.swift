@@ -124,7 +124,7 @@ class RegisterViewController: UIViewController {
                     }
                     
                     //move to login page
-                    self.goToHome()
+                    self.goToLogin()
                 }
             }
                         
@@ -135,11 +135,11 @@ class RegisterViewController: UIViewController {
         ErrorLabel.text = message
         ErrorLabel.alpha = 1
     }
-    func goToHome(){
+    func goToLogin(){
        
-       let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+       let loginViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.loginViewController) as? LoginViewController
         
-        view.window?.rootViewController = homeViewController
+        view.window?.rootViewController = loginViewController
         view.window?.makeKeyAndVisible()
     }
 }
