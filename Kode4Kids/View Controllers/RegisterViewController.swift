@@ -10,7 +10,7 @@ import UIKit
 import FirebaseAuth
 import Firebase
 
-class RegisterViewController: UIViewController {
+class RegisterViewController: UIViewController, UITextFieldDelegate {
 
     
     @IBOutlet weak var fullName: UITextField!
@@ -20,8 +20,8 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var Password: UITextField!
     
     @IBOutlet weak var PhoneNo: UITextField!
-    
-    @IBOutlet weak var DateOfBirth: UITextField!
+
+    @IBOutlet weak var Age: UITextField!
     
     @IBOutlet weak var City: UITextField!
     
@@ -36,7 +36,10 @@ class RegisterViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         setUpElements()
-            
+        
+        //setting up delegate text fields to only allow numbers
+        PhoneNo.delegate = self
+        Age.delegate = self
     }
     
     func setUpElements(){
@@ -48,14 +51,33 @@ class RegisterViewController: UIViewController {
         Utilities.styleTextField(Email)
         Utilities.styleTextField(Password)
         Utilities.styleTextField(PhoneNo)
-        Utilities.styleTextField(DateOfBirth)
+        Utilities.styleTextField(Age)
         Utilities.styleTextField(City)
         Utilities.styleFilledButton(RegisterButton)
         
     }
     
+    //delegate text fields can only be numbers
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        //For mobile numer validation
+        if textField == PhoneNo || textField == Age {
+            let allowedCharacters = CharacterSet(charactersIn:"+0123456789 ")//Here change this characters based on your requirement
+            let characterSet = CharacterSet(charactersIn: string)
+            return allowedCharacters.isSuperset(of: characterSet)
+        }
+        return true
+    }
+    
+    //check email validation
+    func isValidEmail(_ Email: String) -> Bool {
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+
+        let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailPred.evaluate(with: Email)
+    }
+    
     //check all fields & validate data is correctly formatted
-        //if the format is not correct, ErrorLabel is displayed
+    //if the format is not correct, ErrorLabel is displayed
     func validateFields() -> String? {
         
         //check all fields are not empty
@@ -63,7 +85,7 @@ class RegisterViewController: UIViewController {
             Email.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
             Password.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
             PhoneNo.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
-            DateOfBirth.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            Age.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
             City.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
         {
             
@@ -80,7 +102,6 @@ class RegisterViewController: UIViewController {
         
         //check email contains '@'
         return nil
-        
         
     }
     
@@ -100,7 +121,7 @@ class RegisterViewController: UIViewController {
             let EmailField = Email.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let PasswordField = Password.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let PhoneNoField = PhoneNo.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-            let DateOfBirthField = DateOfBirth.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let AgeField = Age.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let CityField = City.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             
             //create user & add to db
@@ -109,13 +130,13 @@ class RegisterViewController: UIViewController {
                 //check for errors
                 if err != nil {
                     //error when creating the user
-                    self.showError("Error creating the user")
+                    self.showError("Email is not valid, must contain @**.com")
                 }
                 else{
                     //user was created successfully
                     let db = Firestore.firestore()
                     
-                    db.collection("users").addDocument(data: ["fullName":fullNameField,"Email":EmailField,"PhoneNo":PhoneNoField,"DateOfBirth":DateOfBirthField,"City":CityField, "userID": result!.user.uid]) { (error) in
+                    db.collection("users").addDocument(data: ["fullName":fullNameField,"Email":EmailField,"PhoneNo":PhoneNoField,"Age":AgeField,"City":CityField, "userID": result!.user.uid]) { (error) in
                         
                         if error != nil {
                             //show error message

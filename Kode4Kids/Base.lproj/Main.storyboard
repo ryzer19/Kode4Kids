@@ -36,12 +36,12 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone No." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JGN-ml-eQu">
                                         <rect key="frame" x="0.0" y="139" width="314" height="36.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B0J-rT-JT1">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B0J-rT-JT1">
                                         <rect key="frame" x="0.0" y="185.5" width="314" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lsL-ng-yiG">
                                         <rect key="frame" x="0.0" y="231.5" width="314" height="36.5"/>
@@ -113,8 +113,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="73N-r7-6Qg"/>
                     <connections>
+                        <outlet property="Age" destination="B0J-rT-JT1" id="wpB-Nq-uqz"/>
                         <outlet property="City" destination="lsL-ng-yiG" id="zJm-ro-UiB"/>
-                        <outlet property="DateOfBirth" destination="B0J-rT-JT1" id="1mb-6J-ENm"/>
                         <outlet property="Email" destination="SEZ-qo-hFG" id="e5s-Gc-qs0"/>
                         <outlet property="ErrorLabel" destination="gIn-hX-hoN" id="cEn-ud-Cuk"/>
                         <outlet property="Password" destination="bAH-09-tOa" id="t6J-2N-UQU"/>
@@ -173,7 +173,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gJ2-sz-DA4" secondAttribute="bottom" constant="300" id="4Ns-I5-d9W"/>
@@ -341,8 +341,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YTw-R9-YVa"/>
-        <segue reference="WuO-nF-iIw"/>
+        <segue reference="fAO-tp-dWR"/>
+        <segue reference="smc-4c-JbH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Kode4KidsLogo.png" width="1024" height="576"/>
