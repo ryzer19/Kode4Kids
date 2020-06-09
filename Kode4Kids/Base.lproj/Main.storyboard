@@ -167,7 +167,7 @@
                                 <rect key="frame" x="60" y="60" width="294" height="179"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="WKX-id-jTG" firstAttribute="top" secondItem="AK3-R1-YRX" secondAttribute="bottom" constant="60" id="ApK-3u-Vji"/>
@@ -860,7 +860,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="YTw-R9-YVa"/>
         <segue reference="852-BK-hYr"/>
-        <segue reference="WuO-nF-iIw"/>
+        <segue reference="smc-4c-JbH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="1024" height="576"/>
