@@ -23,6 +23,7 @@
 		7FE2D736247486ED006A954F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D735247486ED006A954F /* RegisterViewController.swift */; };
 		7FE2D73824748708006A954F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D73724748708006A954F /* LoginViewController.swift */; };
 		7FE2D73A2474871A006A954F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D7392474871A006A954F /* HomeViewController.swift */; };
+		7FE47342248FA78900B2A84B /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE47341248FA78900B2A84B /* ResetViewController.swift */; };
 		8E8FB73B1A27CECFCE4DF663 /* Pods_Kode4Kids.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE67C18C69859D017107C8E5 /* Pods_Kode4Kids.framework */; };
 		93B5F7FAD9B5F038E39BB947 /* Pods_Kode4Kids_Kode4KidsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9261A5B8FEF2E2071769A6D8 /* Pods_Kode4Kids_Kode4KidsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -70,6 +71,7 @@
 		7FE2D735247486ED006A954F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		7FE2D73724748708006A954F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7FE2D7392474871A006A954F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7FE47341248FA78900B2A84B /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
 		9261A5B8FEF2E2071769A6D8 /* Pods_Kode4Kids_Kode4KidsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kode4Kids_Kode4KidsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE67C18C69859D017107C8E5 /* Pods_Kode4Kids.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kode4Kids.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32CBB4D9FFA283C659C533E /* Pods-Kode4KidsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4KidsTests.debug.xcconfig"; path = "Target Support Files/Pods-Kode4KidsTests/Pods-Kode4KidsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				7FE2D735247486ED006A954F /* RegisterViewController.swift */,
 				7FE2D73724748708006A954F /* LoginViewController.swift */,
 				7FE2D7392474871A006A954F /* HomeViewController.swift */,
+				7FE47341248FA78900B2A84B /* ResetViewController.swift */,
 				7F035EDE2475580700E3EFAA /* Helpers */,
 			);
 			path = "View Controllers";
@@ -456,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FD1D70F2471C6C8009739DB /* ViewController.swift in Sources */,
+				7FE47342248FA78900B2A84B /* ResetViewController.swift in Sources */,
 				7FD1D70B2471C6C8009739DB /* AppDelegate.swift in Sources */,
 				7F035EDD2475580100E3EFAA /* Utilities.swift in Sources */,
 				7FD1D70D2471C6C8009739DB /* SceneDelegate.swift in Sources */,

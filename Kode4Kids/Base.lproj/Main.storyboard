@@ -250,7 +250,7 @@
                                             <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="198-E3-hst" kind="show" id="BvG-9s-qDs"/>
+                                            <segue destination="198-E3-hst" kind="show" id="LTS-wt-NGz"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Un-t4-e32">
@@ -348,7 +348,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="260-VF-WPe">
-                                <rect key="frame" x="45" y="403" width="324" height="50"/>
+                                <rect key="frame" x="45" y="403" width="324" height="45"/>
                                 <color key="backgroundColor" red="0.36862745099999999" green="1" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Reset">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -357,23 +357,38 @@
                                     <action selector="LoginTapped:" destination="8kK-vz-cEN" eventType="touchUpInside" id="4ez-dR-ngZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLz-h2-FT1">
+                                <rect key="frame" x="40" y="478" width="334" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PTV-gw-vu0"/>
+                                </constraints>
+                                <state key="normal" title="Back to Login">
+                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8kK-vz-cEN" kind="show" id="8kx-8h-JfP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="8BJ-ih-Ubf" firstAttribute="bottom" secondItem="260-VF-WPe" secondAttribute="bottom" constant="355" id="3M2-lZ-n4U"/>
                             <constraint firstItem="8BJ-ih-Ubf" firstAttribute="trailing" secondItem="xNd-Mp-amc" secondAttribute="trailing" constant="40" id="3rg-cr-Xrd"/>
+                            <constraint firstItem="PLz-h2-FT1" firstAttribute="top" secondItem="260-VF-WPe" secondAttribute="bottom" constant="30" id="4i2-gu-eDm"/>
                             <constraint firstItem="8BJ-ih-Ubf" firstAttribute="trailing" secondItem="Y9x-i4-2bg" secondAttribute="trailing" constant="45" id="5Qy-rP-uzq"/>
                             <constraint firstItem="8BJ-ih-Ubf" firstAttribute="trailing" secondItem="260-VF-WPe" secondAttribute="trailing" constant="45" id="6Bh-Db-fx7"/>
+                            <constraint firstItem="8BJ-ih-Ubf" firstAttribute="bottom" secondItem="PLz-h2-FT1" secondAttribute="bottom" constant="300" id="D0M-8h-akG"/>
                             <constraint firstItem="Jya-HH-5xy" firstAttribute="leading" secondItem="8BJ-ih-Ubf" secondAttribute="leading" constant="40" id="H3z-rF-9X8"/>
                             <constraint firstItem="1dV-LN-dZa" firstAttribute="leading" secondItem="8BJ-ih-Ubf" secondAttribute="leading" constant="35" id="JNi-Fx-NgC"/>
                             <constraint firstItem="Jya-HH-5xy" firstAttribute="top" secondItem="8BJ-ih-Ubf" secondAttribute="top" constant="120" id="KoD-VP-dpM"/>
                             <constraint firstItem="xNd-Mp-amc" firstAttribute="top" secondItem="8BJ-ih-Ubf" secondAttribute="top" constant="183" id="N56-2r-f88"/>
+                            <constraint firstItem="PLz-h2-FT1" firstAttribute="trailing" secondItem="xNd-Mp-amc" secondAttribute="trailing" id="QTu-u4-PP4"/>
                             <constraint firstItem="1dV-LN-dZa" firstAttribute="top" secondItem="xNd-Mp-amc" secondAttribute="bottom" constant="50" id="VVP-SY-785"/>
                             <constraint firstItem="8BJ-ih-Ubf" firstAttribute="bottom" secondItem="Y9x-i4-2bg" secondAttribute="bottom" constant="421" id="WvH-cY-a0B"/>
                             <constraint firstItem="8BJ-ih-Ubf" firstAttribute="trailing" secondItem="Jya-HH-5xy" secondAttribute="trailing" constant="40" id="esr-iq-bK6"/>
                             <constraint firstItem="xNd-Mp-amc" firstAttribute="leading" secondItem="8BJ-ih-Ubf" secondAttribute="leading" constant="40" id="gjQ-Ko-wS8"/>
                             <constraint firstItem="8BJ-ih-Ubf" firstAttribute="trailing" secondItem="1dV-LN-dZa" secondAttribute="trailing" constant="35" id="h2s-Ie-cX9"/>
                             <constraint firstItem="260-VF-WPe" firstAttribute="top" secondItem="Y9x-i4-2bg" secondAttribute="bottom" constant="16" id="h2u-H7-uqY"/>
+                            <constraint firstItem="PLz-h2-FT1" firstAttribute="leading" secondItem="xNd-Mp-amc" secondAttribute="leading" id="o79-jF-7XA"/>
                             <constraint firstItem="260-VF-WPe" firstAttribute="leading" secondItem="8BJ-ih-Ubf" secondAttribute="leading" constant="45" id="r6c-wg-yFp"/>
                             <constraint firstItem="Y9x-i4-2bg" firstAttribute="leading" secondItem="8BJ-ih-Ubf" secondAttribute="leading" constant="45" id="uGL-Nc-umq"/>
                             <constraint firstItem="Y9x-i4-2bg" firstAttribute="top" secondItem="1dV-LN-dZa" secondAttribute="bottom" constant="14" id="vPL-x1-K3Q"/>
@@ -381,6 +396,10 @@
                         <viewLayoutGuide key="safeArea" id="8BJ-ih-Ubf"/>
                     </view>
                     <navigationItem key="navigationItem" id="OD0-h2-j2J"/>
+                    <connections>
+                        <outlet property="Email" destination="Y9x-i4-2bg" id="L2t-QP-xSl"/>
+                        <outlet property="ResetButton" destination="260-VF-WPe" id="ZTy-qy-FyB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Czw-1I-RPH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -858,9 +877,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YTw-R9-YVa"/>
+        <segue reference="8kx-8h-JfP"/>
         <segue reference="852-BK-hYr"/>
-        <segue reference="smc-4c-JbH"/>
+        <segue reference="WuO-nF-iIw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="1024" height="576"/>
