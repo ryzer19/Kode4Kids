@@ -336,7 +336,7 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your email below to recieve a reset link:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dV-LN-dZa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your email below to receive a reset link:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dV-LN-dZa">
                                 <rect key="frame" x="35" y="311" width="344" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -355,6 +355,7 @@
                                 </state>
                                 <connections>
                                     <action selector="LoginTapped:" destination="8kK-vz-cEN" eventType="touchUpInside" id="4ez-dR-ngZ"/>
+                                    <action selector="ResetTapped:" destination="198-E3-hst" eventType="touchUpInside" id="rlf-bE-CH4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLz-h2-FT1">
@@ -398,7 +399,7 @@
                     <navigationItem key="navigationItem" id="OD0-h2-j2J"/>
                     <connections>
                         <outlet property="Email" destination="Y9x-i4-2bg" id="L2t-QP-xSl"/>
-                        <outlet property="ResetButton" destination="260-VF-WPe" id="ZTy-qy-FyB"/>
+                        <outlet property="ResetButton" destination="260-VF-WPe" id="1oZ-z4-2NN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Czw-1I-RPH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

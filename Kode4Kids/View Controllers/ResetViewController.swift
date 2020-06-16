@@ -8,6 +8,11 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
+
+var showAlert = false
+var errString: String?
+
 
 class ResetViewController: UIViewController {
 
@@ -29,7 +34,23 @@ class ResetViewController: UIViewController {
             Utilities.styleTextField(Email)
             Utilities.styleTextField(Email)
             Utilities.styleFilledButton(ResetButton)
-        }
     }
+
     
+    @IBAction func ResetTapped(_ sender: Any) {
+        let auth = Auth.auth()
+        auth.sendPasswordReset(withEmail: Email.text!) { (error) in
+            if let error = error {
+                let alert = Service.createAlertController(title: "Error", message: error.localizedDescription)
+                self.present(alert, animated: true, completion: nil)
+                return
+            }
+            
+            let alert = Service.createAlertController(title: "Success", message: "An email has been sent to reset your password")
+            self.present(alert, animated: true, completion: nil)
+    }
+}
+    
+}
+
 
