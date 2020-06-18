@@ -14,5 +14,14 @@ struct Constants {
         
         static let homeViewController = "HomeVC"
         static let loginViewController = "LoginVC"
+        static let profileViewController = "ProfileVC"
+        static let subjectsViewController = "SubjectsVC"
+        static let notesViewController = "NotesVC"
+        static let forumViewController = "ForumVC"
+        static let aboutusViewController = "AboutUsVC"
+        static let newsViewController = "NewsVC"
+        static let settingsViewController = "SettingsVC"
+     
+        
     }
 }

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C433AB0249ACCE3008977F2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AAF249ACCE3008977F2 /* ProfileViewController.swift */; };
+		1C433AB2249ACD3C008977F2 /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB1249ACD3C008977F2 /* SubjectsViewController.swift */; };
+		1C433AB4249ACD60008977F2 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB3249ACD60008977F2 /* NotesViewController.swift */; };
+		1C433AB6249ACD8A008977F2 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB5249ACD8A008977F2 /* ForumViewController.swift */; };
+		1C433AB8249ACDAA008977F2 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB7249ACDAA008977F2 /* AboutUsViewController.swift */; };
+		1C433ABA249ACDC3008977F2 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB9249ACDC3008977F2 /* NewsViewController.swift */; };
+		1C433ABC249ACE2A008977F2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */; };
 		682226AA91FBC1CF9B8D0463 /* Pods_Kode4KidsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC5EF1E002E08B8FDA76CA9 /* Pods_Kode4KidsTests.framework */; };
 		7F035EDD2475580100E3EFAA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F035EDC2475580100E3EFAA /* Utilities.swift */; };
 		7F4FE22324755EA000A287F5 /* Kode4KidsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4FE22024755EA000A287F5 /* Kode4KidsLogo.png */; };
@@ -49,6 +56,13 @@
 /* Begin PBXFileReference section */
 		10F431729217EEDEBEC0042C /* Pods-Kode4KidsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4KidsTests.release.xcconfig"; path = "Target Support Files/Pods-Kode4KidsTests/Pods-Kode4KidsTests.release.xcconfig"; sourceTree = "<group>"; };
 		1AC5EF1E002E08B8FDA76CA9 /* Pods_Kode4KidsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kode4KidsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C433AAF249ACCE3008977F2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1C433AB1249ACD3C008977F2 /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		1C433AB3249ACD60008977F2 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		1C433AB5249ACD8A008977F2 /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		1C433AB7249ACDAA008977F2 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		1C433AB9249ACDC3008977F2 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1E58B2BCEA2D2AE164E867D3 /* Pods-Kode4Kids.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4Kids.debug.xcconfig"; path = "Target Support Files/Pods-Kode4Kids/Pods-Kode4Kids.debug.xcconfig"; sourceTree = "<group>"; };
 		3AB115DD4E266FC864B7977B /* Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kode4Kids-Kode4KidsUITests/Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F035EDC2475580100E3EFAA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -202,6 +216,13 @@
 				7FE2D73724748708006A954F /* LoginViewController.swift */,
 				7FE2D7392474871A006A954F /* HomeViewController.swift */,
 				7FE47341248FA78900B2A84B /* ResetViewController.swift */,
+				1C433AAF249ACCE3008977F2 /* ProfileViewController.swift */,
+				1C433AB1249ACD3C008977F2 /* SubjectsViewController.swift */,
+				1C433AB3249ACD60008977F2 /* NotesViewController.swift */,
+				1C433AB5249ACD8A008977F2 /* ForumViewController.swift */,
+				1C433AB7249ACDAA008977F2 /* AboutUsViewController.swift */,
+				1C433AB9249ACDC3008977F2 /* NewsViewController.swift */,
+				1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */,
 				7F035EDE2475580700E3EFAA /* Helpers */,
 			);
 			path = "View Controllers";
@@ -466,11 +487,18 @@
 				7FD1D70B2471C6C8009739DB /* AppDelegate.swift in Sources */,
 				7F035EDD2475580100E3EFAA /* Utilities.swift in Sources */,
 				7FD1D70D2471C6C8009739DB /* SceneDelegate.swift in Sources */,
+				1C433AB2249ACD3C008977F2 /* SubjectsViewController.swift in Sources */,
+				1C433AB6249ACD8A008977F2 /* ForumViewController.swift in Sources */,
 				7FE2D73A2474871A006A954F /* HomeViewController.swift in Sources */,
+				1C433AB4249ACD60008977F2 /* NotesViewController.swift in Sources */,
+				1C433AB0249ACCE3008977F2 /* ProfileViewController.swift in Sources */,
+				1C433AB8249ACDAA008977F2 /* AboutUsViewController.swift in Sources */,
 				7FE2D73824748708006A954F /* LoginViewController.swift in Sources */,
+				1C433ABC249ACE2A008977F2 /* SettingsViewController.swift in Sources */,
 				7F8B5B59249943860015382D /* Service.swift in Sources */,
 				7FE2D736247486ED006A954F /* RegisterViewController.swift in Sources */,
 				7FA7F44324780F8A003DA822 /* Constants.swift in Sources */,
+				1C433ABA249ACDC3008977F2 /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import UIKit
 class HomeViewController: UIViewController {
 
   
-    var menuOut = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,17 +19,112 @@ class HomeViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
+    @IBAction func pTapped(_ sender: Any) {
+        
+        let profileViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.profileViewController) as? ProfileViewController
+        
+        self.view.window?.rootViewController = profileViewController
+        self.view.window?.makeKeyAndVisible()
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
     
     
+    @IBAction func sTapped(_ sender: Any) {
+        
+        let subjectsViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.subjectsViewController) as? SubjectsViewController
+        
+        self.view.window?.rootViewController = subjectsViewController
+        self.view.window?.makeKeyAndVisible()
+
+    }
     
     
+    @IBAction func nTapped(_ sender: Any) {
+        
+        let notesViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.notesViewController) as? NotesViewController
+        
+        self.view.window?.rootViewController = notesViewController
+        self.view.window?.makeKeyAndVisible()
+
+    }
+    
+    @IBAction func fTapped(_ sender: Any) {
+        
+        let forumViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.forumViewController) as? ForumViewController
+        
+        self.view.window?.rootViewController = forumViewController
+        self.view.window?.makeKeyAndVisible()
+
+    }
+    
+    
+    @IBAction func aTapped(_ sender: Any) {
+        
+        let aboutusViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.aboutusViewController) as? AboutUsViewController
+        
+        self.view.window?.rootViewController = aboutusViewController
+        self.view.window?.makeKeyAndVisible()
+
+    }
+    
+        
+    @IBAction func neTapped(_ sender: Any) {
+        
+        let newsViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.newsViewController) as? NewsViewController
+        
+        self.view.window?.rootViewController = newsViewController
+        self.view.window?.makeKeyAndVisible()
+
+    }
+    
+    @IBAction func seTapped(_ sender: Any) {
+        
+        let settingsViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.settingsViewController) as? SettingsViewController
+        
+        self.view.window?.rootViewController = settingsViewController
+        self.view.window?.makeKeyAndVisible()
+
+    }
+    
+    @IBAction func lTapped(_ sender: Any) {
+        
+        let loginViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.loginViewController) as? LoginViewController
+        
+        self.view.window?.rootViewController = loginViewController
+        self.view.window?.makeKeyAndVisible()
+
+    }
+    
+    @IBOutlet weak var leading: NSLayoutConstraint!
+    
+    @IBOutlet weak var trailing: NSLayoutConstraint!
+    
+    var menuOut = false
+    
+    @IBAction func menuTapped(_ sender: Any) {
+        
+        if menuOut == false {
+            
+            leading.constant = 150
+            trailing.constant = -150
+            
+            menuOut = true
+            
+        } else {
+                leading.constant = 0
+                trailing.constant = 0
+                
+                menuOut = false
+            
+        }
+        
+        UIView.animate(withDuration:0.2, delay:0.0, options:.curveEaseIn,animations: {self.view.layoutIfNeeded()
+            
+        }) { (animationComplete)
+            in print("The animation is complete") }
+            
+        }
+        
 }
+    
+
