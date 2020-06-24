@@ -1,18 +1,17 @@
 //
-//  NoteEntryViewController.swift
+//  EntryViewController.swift
 //  Kode4Kids
 //
-//  Created by Ryan Johnston on 22/06/2020.
+//  Created by Ryan Johnston on 23/06/2020.
 //  Copyright © 2020 Group9. All rights reserved.
 //
 
 import UIKit
 
-class NoteEntryViewController: UIViewController {
+class EntryViewController: UIViewController {
 
     @IBOutlet var titleField: UITextField!
     @IBOutlet var noteField: UITextView!
-    @IBOutlet var saveButton: UIBarButtonItem!
     
     public var completion: ((String, String) -> Void)?
     
@@ -21,20 +20,21 @@ class NoteEntryViewController: UIViewController {
         titleField.becomeFirstResponder()
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .done, target: self, action: #selector(saveTapped))
     }
-    
-    @objc func saveTapped() {
+    @objc func saveTapped(){
         if let text = titleField.text, !text.isEmpty, !noteField.text.isEmpty{
-        completion?(text, noteField.text)
+            completion?(text, noteField.text)
+            
+        }
+    }
+    
+    @IBAction func backTapped(_ sender: Any) {
+        
+        let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+        
+        self.view.window?.rootViewController = homeViewController
+        self.view.window?.makeKeyAndVisible()
     }
         
-}
-    
-@IBAction func backTapped(_ sender: Any) {
-        
-    let notesViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.notesViewController) as? NotesViewController
-        
-    self.view.window?.rootViewController = notesViewController
-    self.view.window?.makeKeyAndVisible()
     }
 
-}
+

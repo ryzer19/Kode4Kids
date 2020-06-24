@@ -9,9 +9,12 @@
 import UIKit
 
 class NotesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    
 
     @IBOutlet var table: UITableView!
     @IBOutlet var label: UILabel!
+    @IBOutlet var NotesViewController: UIView!
     
     var models: [(title: String, note: String)] = []
     
@@ -19,19 +22,28 @@ class NotesViewController: UIViewController, UITableViewDelegate, UITableViewDat
         super.viewDidLoad()
         table.delegate = self
         table.dataSource = self
-            title = "Notes"
+        title = "Notes"
     }
     
-    @IBAction func newNoteTapped(){
-        guard let vc = storyboard?.instantiateViewController(identifier: "NoteEntryVC") as? NoteEntryViewController else{
-            return
-            }
+    @IBAction func newNoteTapped(_ sender: Any) {
         
-        vc.title = "New Note"
+        let entryViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.entryViewController) as? EntryViewController
+                
+        entryViewController?.title = "New note"
+        entryViewController?.navigationItem.largeTitleDisplayMode = .never
+        entryViewController?.completion = { noteTitle, note in
+            self.navigationController?.popViewController(animated: true)
+            self.models.append((title: noteTitle, note: note))
+                self.label.isHidden = true
+                self.table.isHidden = false
+            
+                self.table.reloadData()
+        }
+        navigationController?.pushViewController(entryViewController!, animated: true)
         
-        navigationController?.pushViewController(vc, animated: true)
     }
-    //table setup
+    
+    //tables setup
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return models.count
     }
@@ -46,14 +58,16 @@ class NotesViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        //show note controller
-        guard let vc = storyboard?.instantiateViewController(identifier: "NoteVC") as? NoteViewController else {
+        //show note view controller
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "note") as? NoteViewController else {
             return
         }
-        vc.title = "NoteVC"
+        
+        vc.title = "Note"
         navigationController?.pushViewController(vc, animated: true)
-        }
-
+    }
+    
+    
         //go back when button is tapped
         @IBAction func backTapped(_ sender: Any) {
         

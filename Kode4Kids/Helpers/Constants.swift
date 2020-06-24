@@ -21,8 +21,9 @@ struct Constants {
         static let aboutusViewController = "AboutUsVC"
         static let newsViewController = "NewsVC"
         static let settingsViewController = "SettingsVC"
-        static let noteEntryViewController = "NoteEntryVC"
-        static let noteViewController = "NoteVC"
+        static let entryViewController = "new"
+        static let noteViewController = "note"
         
     }
+
 }
