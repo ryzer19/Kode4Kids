@@ -25,9 +25,13 @@ class NotesViewController: UIViewController, UITableViewDelegate, UITableViewDat
         title = "Notes"
     }
     
-    @IBAction func newNoteTapped(_ sender: Any) {
+    @IBAction func newNotes(_ sender: Any) {
         
         let entryViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.entryViewController) as? EntryViewController
+        
+        self.view.window?.rootViewController = entryViewController
+        self.view.window?.makeKeyAndVisible()
+        
                 
         entryViewController?.title = "New note"
         entryViewController?.navigationItem.largeTitleDisplayMode = .never
@@ -42,6 +46,8 @@ class NotesViewController: UIViewController, UITableViewDelegate, UITableViewDat
         navigationController?.pushViewController(entryViewController!, animated: true)
         
     }
+    
+  
     
     //tables setup
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -69,12 +75,17 @@ class NotesViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     
         //go back when button is tapped
-        @IBAction func backTapped(_ sender: Any) {
         
+    @IBAction func backTapped(_ sender: Any) {
+       
         let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
         
         self.view.window?.rootViewController = homeViewController
         self.view.window?.makeKeyAndVisible()
+        
     }
+    
+        
+    
     
 }

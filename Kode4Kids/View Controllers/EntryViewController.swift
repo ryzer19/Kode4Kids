@@ -20,10 +20,11 @@ class EntryViewController: UIViewController {
         titleField.becomeFirstResponder()
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .done, target: self, action: #selector(saveTapped))
     }
-    @objc func saveTapped(){
-        if let text = titleField.text, !text.isEmpty, !noteField.text.isEmpty{
+  
+    @IBAction func saveTapped(_ sender: Any) {
+   
+    if let text = titleField.text, !text.isEmpty, !noteField.text.isEmpty{
             completion?(text, noteField.text)
-            
         }
     }
     

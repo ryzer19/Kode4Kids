@@ -18,7 +18,19 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func hTapped(_ sender: Any) {
+            
+            let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+            
+            self.view.window?.rootViewController = homeViewController
+            self.view.window?.makeKeyAndVisible()
 
+        
+        
+    }
+    
+    
+    
     @IBAction func pTapped(_ sender: Any) {
         
         let profileViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.profileViewController) as? ProfileViewController
