@@ -14,6 +14,7 @@
 		1C433AB8249ACDAA008977F2 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB7249ACDAA008977F2 /* AboutUsViewController.swift */; };
 		1C433ABA249ACDC3008977F2 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB9249ACDC3008977F2 /* NewsViewController.swift */; };
 		1C433ABC249ACE2A008977F2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */; };
+		1C85D86724A5AA9A00EC78A7 /* IntrotoCSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D86624A5AA9A00EC78A7 /* IntrotoCSViewController.swift */; };
 		682226AA91FBC1CF9B8D0463 /* Pods_Kode4KidsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC5EF1E002E08B8FDA76CA9 /* Pods_Kode4KidsTests.framework */; };
 		7F035EDD2475580100E3EFAA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F035EDC2475580100E3EFAA /* Utilities.swift */; };
 		7F4FE22324755EA000A287F5 /* Kode4KidsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4FE22024755EA000A287F5 /* Kode4KidsLogo.png */; };
@@ -65,6 +66,7 @@
 		1C433AB7249ACDAA008977F2 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		1C433AB9249ACDC3008977F2 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1C85D86624A5AA9A00EC78A7 /* IntrotoCSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrotoCSViewController.swift; sourceTree = "<group>"; };
 		1E58B2BCEA2D2AE164E867D3 /* Pods-Kode4Kids.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4Kids.debug.xcconfig"; path = "Target Support Files/Pods-Kode4Kids/Pods-Kode4Kids.debug.xcconfig"; sourceTree = "<group>"; };
 		3AB115DD4E266FC864B7977B /* Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kode4Kids-Kode4KidsUITests/Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F035EDC2475580100E3EFAA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */,
 				7F6787EB24A2732800CA8BDC /* NoteViewController.swift */,
 				7F6787ED24A2733700CA8BDC /* EntryViewController.swift */,
+				1C85D86624A5AA9A00EC78A7 /* IntrotoCSViewController.swift */,
 				7F035EDE2475580700E3EFAA /* Helpers */,
 			);
 			path = "View Controllers";
@@ -492,6 +495,7 @@
 				7FE47342248FA78900B2A84B /* ResetViewController.swift in Sources */,
 				7FD1D70B2471C6C8009739DB /* AppDelegate.swift in Sources */,
 				7F035EDD2475580100E3EFAA /* Utilities.swift in Sources */,
+				1C85D86724A5AA9A00EC78A7 /* IntrotoCSViewController.swift in Sources */,
 				7F6787EC24A2732800CA8BDC /* NoteViewController.swift in Sources */,
 				7FD1D70D2471C6C8009739DB /* SceneDelegate.swift in Sources */,
 				7F6787EE24A2733700CA8BDC /* EntryViewController.swift in Sources */,

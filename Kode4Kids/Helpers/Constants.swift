@@ -23,6 +23,7 @@ struct Constants {
         static let settingsViewController = "SettingsVC"
         static let entryViewController = "new"
         static let noteViewController = "note"
+        static let introtocsViewController = "IntroCSVC"
         
     }
 

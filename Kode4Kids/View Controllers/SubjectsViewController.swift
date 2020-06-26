@@ -24,5 +24,17 @@ class SubjectsViewController: UIViewController {
                        self.view.window?.makeKeyAndVisible()
     }
     
+    @IBAction func s1Tapped(_ sender: Any) {
+       
+        let introtocsViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.introtocsViewController) as? IntrotoCSViewController
+        
+        self.view.window?.rootViewController = introtocsViewController
+        self.view.window?.makeKeyAndVisible()
+        
+        
+        
+    }
+    
+    
     
 }
