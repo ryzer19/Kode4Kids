@@ -7,16 +7,48 @@
 //
 
 import UIKit
+import UserNotifications
 
 class SettingsViewController: UIViewController {
 
+    
+    @IBOutlet weak var Appearance: UISegmentedControl!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+            
+            //importing notification center function
+        let center = UNUserNotificationCenter.current()
+        
+        //function to request authorization to approve of notifs
+        center.requestAuthorization(options: [.alert, .sound, .badge]) { (granted, error) in
+            
+        }
+        
+    //notification content which is shown
+    let content = UNMutableNotificationContent()
+    content.title = "Thanks for joining!"
+    content.body = "Come back soon"
+    content.badge = 1
+        
+        
+    //trigger
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+    
+    //notification request
+        let uuidString = UUID().uuidString
+        let request = UNNotificationRequest(identifier: uuidString, content: content, trigger: trigger)
+        
+        //register the request
+        center.add(request) { (error) in
+            //check for errors
+        }
+        
+        
     }
     
-
+        
     @IBAction func backTapped(_ sender: Any) {
        
         let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
@@ -24,6 +56,20 @@ class SettingsViewController: UIViewController {
         self.view.window?.rootViewController = homeViewController
         self.view.window?.makeKeyAndVisible()
         
+    }
+    
+    
+    @IBAction func Appearance(_ sender: Any) {
+        switch Appearance.selectedSegmentIndex{
+        case 0:
+            overrideUserInterfaceStyle = .light
+        case 1:
+            overrideUserInterfaceStyle = .dark
+        case 2:
+            overrideUserInterfaceStyle = .unspecified
+        default:
+            overrideUserInterfaceStyle = .unspecified
+        }
     }
     
 }
