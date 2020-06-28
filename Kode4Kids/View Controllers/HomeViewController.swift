@@ -79,7 +79,6 @@ class HomeViewController: UIViewController {
 
     }
     
-        
     @IBAction func neTapped(_ sender: Any) {
         
         let newsViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.newsViewController) as? NewsViewController
@@ -88,6 +87,7 @@ class HomeViewController: UIViewController {
         self.view.window?.makeKeyAndVisible()
 
     }
+    
     
     @IBAction func seTapped(_ sender: Any) {
         

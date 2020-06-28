@@ -743,6 +743,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pWu-9a-ZLZ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <items>
+                                    <navigationItem title="About Us" id="Pba-Br-qCi">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="lessthan" catalog="system" id="esA-fP-ae3">
+                                            <color key="tintColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="backTapped:" destination="yjc-da-c9S" id="Dcl-Mc-btd"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="mFR-r3-9ZG"/>
@@ -755,7 +770,7 @@
         <!--News View Controller-->
         <scene sceneID="V6G-H6-lSQ">
             <objects>
-                <viewController storyboardIdentifier="NewsVC" id="yjc-da-c9S" customClass="NewsViewController" customModule="Kode4Kids" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NewsVC" id="yjc-da-c9S" customClass="NewsViewController" customModule="Kode4Kids" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SUC-6S-of5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -767,21 +782,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pWu-9a-ZLZ">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <items>
-                                    <navigationItem title="News" id="Pba-Br-qCi">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" image="lessthan" catalog="system" id="esA-fP-ae3">
-                                            <color key="tintColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <connections>
-                                                <action selector="backTapped:" destination="yjc-da-c9S" id="Dcl-Mc-btd"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="jtX-rx-Pg6"/>
@@ -1572,7 +1572,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Introduction to Computer Science ">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P1">
+                                                <fragment content="Overvie of the Internet">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1587,7 +1587,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P2">
+                                                <fragment content="Web Standards ">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1602,7 +1602,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P3">
+                                                <fragment content="HTML &amp; XHTML">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1617,7 +1617,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P4">
+                                                <fragment content="Structural ">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1632,7 +1632,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P5">
+                                                <fragment content="Language Syntax">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1647,7 +1647,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P6">
+                                                <fragment content="Optimmisation ">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1662,7 +1662,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P7">
+                                                <fragment content="Deployment ">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1677,7 +1677,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P8">
+                                                <fragment content="Advanced Topics">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
