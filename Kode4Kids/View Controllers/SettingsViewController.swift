@@ -13,17 +13,18 @@ class SettingsViewController: UIViewController {
 
     
     @IBOutlet weak var Appearance: UISegmentedControl!
+    @IBOutlet weak var Settings: UIButton!
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-            
             //importing notification center function
         let center = UNUserNotificationCenter.current()
         
         //function to request authorization to approve of notifs
         center.requestAuthorization(options: [.alert, .sound, .badge]) { (granted, error) in
-            
+
         }
         
     //notification content which is shown
@@ -48,6 +49,15 @@ class SettingsViewController: UIViewController {
         
     }
     
+    @IBAction func settingsTapped(_ sender: Any) {
+        if let settingUrl = URL(string:UIApplication.openSettingsURLString) {
+
+            UIApplication.shared.open(settingUrl)
+        }
+        else {
+            print("Setting URL invalid")
+        }
+}
         
     @IBAction func backTapped(_ sender: Any) {
        
