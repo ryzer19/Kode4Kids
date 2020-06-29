@@ -1504,7 +1504,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P4">
+                                                <fragment content="GUI/UI">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1519,7 +1519,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P5">
+                                                <fragment content="Programming">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1534,7 +1534,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P6">
+                                                <fragment content="Front End Development ">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1549,7 +1549,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P7">
+                                                <fragment content="Back End Development ">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1564,7 +1564,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P8">
+                                                <fragment content="Testing ">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1628,7 +1628,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P2">
+                                                <fragment content="Types of Databases">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1643,7 +1643,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P3">
+                                                <fragment content="Database Languages">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1658,7 +1658,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P4">
+                                                <fragment content="Database Management Systems">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1673,7 +1673,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P5">
+                                                <fragment content="Design">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1688,7 +1688,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P6">
+                                                <fragment content="DB Programming ">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1703,7 +1703,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P7">
+                                                <fragment content="Concepts">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -1718,7 +1718,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P8">
+                                                <fragment content="Implementation">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2090,7 +2090,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P2">
+                                                <fragment content="Cloud Types">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2105,7 +2105,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P3">
+                                                <fragment content="Cloud Architecture">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2120,7 +2120,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P4">
+                                                <fragment content="Storage">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2135,7 +2135,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P5">
+                                                <fragment content="Security">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2150,7 +2150,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P6">
+                                                <fragment content="Cloud Computing">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2165,7 +2165,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P7">
+                                                <fragment content="Data">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2180,7 +2180,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P8">
+                                                <fragment content="Advanced Topics">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2244,7 +2244,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P2">
+                                                <fragment content="Design">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2259,7 +2259,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P3">
+                                                <fragment content="Development Languages">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2274,7 +2274,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P4">
+                                                <fragment content="Prototyping">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2289,22 +2289,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P5">
-                                                    <attributes>
-                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <font key="NSFont" size="18" name="Futura-Bold"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bmJ-CY-09O">
-                                        <rect key="frame" x="0.0" y="472.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <state key="normal" title="Cloud Computing">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="P6">
+                                                <fragment content="Development Process">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2315,11 +2300,26 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eNH-Xg-Urj">
-                                        <rect key="frame" x="0.0" y="567" width="375" height="88.5"/>
+                                        <rect key="frame" x="0.0" y="472.5" width="375" height="88.5"/>
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P7">
+                                                <fragment content="Development  Areas">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <font key="NSFont" size="18" name="Futura-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bmJ-CY-09O">
+                                        <rect key="frame" x="0.0" y="567" width="375" height="88.5"/>
+                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Cloud Computing">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Production">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
@@ -2334,7 +2334,7 @@
                                         <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="P8">
+                                                <fragment content="Future Technologies">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" size="18" name="Futura-Bold"/>
