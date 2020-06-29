@@ -18,8 +18,10 @@ target 'Kode4Kids' do
 	
 	
 	pod 'Firebase/Analytics'
+	pod 'Firebase/Database'
 	pod 'Firebase/Auth'
 	pod 'Firebase/Core'
 	pod 'Firebase/Firestore'
+	pod 'Firebase/Storage'
 
 end
