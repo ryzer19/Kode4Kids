@@ -1278,27 +1278,22 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0b6-ZN-maP">
-                                <rect key="frame" x="20" y="142" width="374" height="128"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5wq-Kn-dQT">
+                                <rect key="frame" x="25" y="142" width="369" height="95.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="ZgB-r9-UtZ" firstAttribute="centerX" secondItem="wiv-bx-nNl" secondAttribute="centerX" id="7G1-1c-eBg"/>
-                            <constraint firstItem="0b6-ZN-maP" firstAttribute="centerX" secondItem="cPD-Yt-wHz" secondAttribute="centerX" id="CRb-yb-Yg9"/>
-                            <constraint firstItem="ZgB-r9-UtZ" firstAttribute="centerX" secondItem="0b6-ZN-maP" secondAttribute="centerX" id="PkN-wL-pFu"/>
-                            <constraint firstItem="E01-6n-Zqe" firstAttribute="bottom" secondItem="0b6-ZN-maP" secondAttribute="bottom" constant="592" id="Wlm-tR-jni"/>
                             <constraint firstItem="cPD-Yt-wHz" firstAttribute="leading" secondItem="E01-6n-Zqe" secondAttribute="leading" id="XT3-eY-rCT"/>
-                            <constraint firstItem="0b6-ZN-maP" firstAttribute="top" secondItem="ZgB-r9-UtZ" secondAttribute="bottom" constant="8" id="bXF-2B-Mz1"/>
                             <constraint firstItem="ZgB-r9-UtZ" firstAttribute="top" secondItem="cPD-Yt-wHz" secondAttribute="bottom" constant="25" id="dtz-UC-ieb"/>
                             <constraint firstItem="ZgB-r9-UtZ" firstAttribute="top" secondItem="wiv-bx-nNl" secondAttribute="top" constant="113" id="gk3-AW-2Tt"/>
                             <constraint firstItem="ZgB-r9-UtZ" firstAttribute="centerX" secondItem="cPD-Yt-wHz" secondAttribute="centerX" id="iYz-aE-pJG"/>
-                            <constraint firstItem="0b6-ZN-maP" firstAttribute="leading" secondItem="wiv-bx-nNl" secondAttribute="leadingMargin" id="wts-88-l8g"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E01-6n-Zqe"/>
                     </view>
