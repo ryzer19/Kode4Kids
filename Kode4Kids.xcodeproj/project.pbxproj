@@ -19,6 +19,9 @@
 		7F035EDD2475580100E3EFAA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F035EDC2475580100E3EFAA /* Utilities.swift */; };
 		7F4FE22324755EA000A287F5 /* Kode4KidsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4FE22024755EA000A287F5 /* Kode4KidsLogo.png */; };
 		7F4FE2292475648400A287F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F4FE2282475648400A287F5 /* GoogleService-Info.plist */; };
+		7F75718D24A9FB31003080FB /* Twitter logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75718C24A9FB31003080FB /* Twitter logo.png */; };
+		7F75719324A9FC58003080FB /* Insta logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75719224A9FC58003080FB /* Insta logo.png */; };
+		7F75719524A9FCE0003080FB /* YT logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75719424A9FCE0003080FB /* YT logo.png */; };
 		7F8B5B59249943860015382D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B5B58249943860015382D /* Service.swift */; };
 		7FA7F44324780F8A003DA822 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA7F44224780F8A003DA822 /* Constants.swift */; };
 		7FD1D70B2471C6C8009739DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD1D70A2471C6C8009739DB /* AppDelegate.swift */; };
@@ -70,6 +73,9 @@
 		7F035EDC2475580100E3EFAA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		7F4FE22024755EA000A287F5 /* Kode4KidsLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kode4KidsLogo.png; sourceTree = "<group>"; };
 		7F4FE2282475648400A287F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F75718C24A9FB31003080FB /* Twitter logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Twitter logo.png"; path = "../../../../../Desktop/Group 9/Twitter logo.png"; sourceTree = "<group>"; };
+		7F75719224A9FC58003080FB /* Insta logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Insta logo.png"; sourceTree = "<group>"; };
+		7F75719424A9FCE0003080FB /* YT logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "YT logo.png"; path = "../../../../../Desktop/Group 9/YT logo.png"; sourceTree = "<group>"; };
 		7F8B5B58249943860015382D /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		7FA7F44224780F8A003DA822 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7FD1D7072471C6C8009739DB /* Kode4Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kode4Kids.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				7F4FE22024755EA000A287F5 /* Kode4KidsLogo.png */,
+				7F75718C24A9FB31003080FB /* Twitter logo.png */,
+				7F75719224A9FC58003080FB /* Insta logo.png */,
+				7F75719424A9FCE0003080FB /* YT logo.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -356,7 +365,10 @@
 				7FD1D7172471C6CA009739DB /* LaunchScreen.storyboard in Resources */,
 				7F4FE22324755EA000A287F5 /* Kode4KidsLogo.png in Resources */,
 				7F4FE2292475648400A287F5 /* GoogleService-Info.plist in Resources */,
+				7F75719524A9FCE0003080FB /* YT logo.png in Resources */,
+				7F75718D24A9FB31003080FB /* Twitter logo.png in Resources */,
 				7FD1D7142471C6CA009739DB /* Assets.xcassets in Resources */,
+				7F75719324A9FC58003080FB /* Insta logo.png in Resources */,
 				7FD1D7122471C6C8009739DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

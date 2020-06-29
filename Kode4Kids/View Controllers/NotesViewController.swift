@@ -15,6 +15,7 @@ class NotesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpElements()
         title = "Notes"
     }
         //when the notes button is tapped, the notes page is loaded on the device
@@ -24,6 +25,12 @@ class NotesViewController: UIViewController {
         } else if let appURL = URL(string: "https://apps.apple.com/us/app/testflight/id899247664"), UIApplication.shared.canOpenURL(appURL) {
             UIApplication.shared.open(appURL, options: [:], completionHandler: nil)
         }
+    }
+    
+    func setUpElements(){
+            
+            //styles elements
+            Utilities.styleFilledButton(notesButton)
     }
         
 
