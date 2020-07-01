@@ -133,6 +133,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                     self.showError("Email is not valid, must contain @**.com")
                 }
                 else{
+                    
                     //user was created successfully
                     let db = Firestore.firestore()
                     

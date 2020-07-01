@@ -16,6 +16,9 @@ import FirebaseDatabase
 
 class ProfileViewController: UIViewController {
     @IBOutlet weak var avatar: UIImageView!
+    @IBOutlet weak var variableLabel: UILabel!
+    
+    var db: Firestore!
     
     //declaring image variable to be optional
     var image: UIImage? = nil
@@ -42,6 +45,7 @@ class ProfileViewController: UIViewController {
         picker.delegate = self
         self.present(picker, animated: true, completion: nil)
     }
+    
         //back button on nav bar tapped brings user back a step
     @IBAction func backTapped(_ sender: Any) {
     
@@ -54,6 +58,8 @@ class ProfileViewController: UIViewController {
     }
     
 }
+
+
 
     //extension to allow the image picker function
 extension ProfileViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
