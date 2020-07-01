@@ -81,7 +81,7 @@ class getData : ObservableObject{
         
         let session = URLSession(configuration: .default)
         
-        session.dataTask(with: <#T##URL#>) { (data, _, err) in
+        session.dataTask(with: URL) { (data, _, err) in
             
             if err != nil{
                 
