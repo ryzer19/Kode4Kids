@@ -15,6 +15,62 @@
 		1C433ABA249ACDC3008977F2 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB9249ACDC3008977F2 /* NewsViewController.swift */; };
 		1C433ABC249ACE2A008977F2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */; };
 		1C85D86724A5AA9A00EC78A7 /* IntrotoCSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D86624A5AA9A00EC78A7 /* IntrotoCSViewController.swift */; };
+		1C85D86B24AE270C00EC78A7 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D86A24AE270C00EC78A7 /* OneViewController.swift */; };
+		1C85D86F24AE29BC00EC78A7 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D86E24AE29BC00EC78A7 /* ThreeViewController.swift */; };
+		1C85D87124AE2AC100EC78A7 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87024AE2AC100EC78A7 /* TwoViewController.swift */; };
+		1C85D87324AE2AD400EC78A7 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87224AE2AD400EC78A7 /* FourViewController.swift */; };
+		1C85D87524AE2B0800EC78A7 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87424AE2B0800EC78A7 /* FiveViewController.swift */; };
+		1C85D87724AE2B3000EC78A7 /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87624AE2B3000EC78A7 /* SixViewController.swift */; };
+		1C85D87924AE2B4800EC78A7 /* SevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87824AE2B4800EC78A7 /* SevenViewController.swift */; };
+		1C85D87B24AE2B8F00EC78A7 /* EightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87A24AE2B8F00EC78A7 /* EightViewController.swift */; };
+		1C85D87D24AE2BF400EC78A7 /* NineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87C24AE2BF400EC78A7 /* NineViewController.swift */; };
+		1C85D87F24AE2C2B00EC78A7 /* TenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87E24AE2C2B00EC78A7 /* TenViewController.swift */; };
+		1C85D88124AE2C4600EC78A7 /* ElevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D88024AE2C4600EC78A7 /* ElevenViewController.swift */; };
+		1C85D88324AE2C9700EC78A7 /* TwelveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D88224AE2C9700EC78A7 /* TwelveViewController.swift */; };
+		1C85D88524AE2CD600EC78A7 /* ThirteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D88424AE2CD600EC78A7 /* ThirteenViewController.swift */; };
+		1C85D88724AE2D5800EC78A7 /* FourteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D88624AE2D5800EC78A7 /* FourteenViewController.swift */; };
+		1C85D88924AE2D9B00EC78A7 /* FifteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D88824AE2D9B00EC78A7 /* FifteenViewController.swift */; };
+		1C85D88B24AE2E0C00EC78A7 /* SixteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D88A24AE2E0C00EC78A7 /* SixteenViewController.swift */; };
+		1C85D88D24AE2E6400EC78A7 /* SeventeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D88C24AE2E6400EC78A7 /* SeventeenViewController.swift */; };
+		1C85D88F24AE2E8800EC78A7 /* EighteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D88E24AE2E8800EC78A7 /* EighteenViewController.swift */; };
+		1C85D89124AE2F5600EC78A7 /* NineteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D89024AE2F5600EC78A7 /* NineteenViewController.swift */; };
+		1C85D89324AE2F6E00EC78A7 /* TwentyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D89224AE2F6E00EC78A7 /* TwentyViewController.swift */; };
+		1C85D89524AE302500EC78A7 /* TwentyoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D89424AE302500EC78A7 /* TwentyoneViewController.swift */; };
+		1C85D89724AE305800EC78A7 /* TwentytwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D89624AE305800EC78A7 /* TwentytwoViewController.swift */; };
+		1C85D89924AE307000EC78A7 /* TwentythreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D89824AE307000EC78A7 /* TwentythreeViewController.swift */; };
+		1C85D89D24AE30B700EC78A7 /* TwentyfourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D89C24AE30B700EC78A7 /* TwentyfourViewController.swift */; };
+		1C85D89F24AE30EC00EC78A7 /* TwentyfiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D89E24AE30EC00EC78A7 /* TwentyfiveViewController.swift */; };
+		1C85D8A124AE311500EC78A7 /* TwentysixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8A024AE311400EC78A7 /* TwentysixViewController.swift */; };
+		1C85D8A324AE313100EC78A7 /* TwentysevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8A224AE313100EC78A7 /* TwentysevenViewController.swift */; };
+		1C85D8A524AE316800EC78A7 /* TwentyeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8A424AE316800EC78A7 /* TwentyeightViewController.swift */; };
+		1C85D8A724AE322400EC78A7 /* TwentynineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8A624AE322400EC78A7 /* TwentynineViewController.swift */; };
+		1C85D8A924AE323A00EC78A7 /* ThirtyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8A824AE323A00EC78A7 /* ThirtyViewController.swift */; };
+		1C85D8AB24AE32AC00EC78A7 /* ThirtyoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8AA24AE32AC00EC78A7 /* ThirtyoneViewController.swift */; };
+		1C85D8AD24AE32D900EC78A7 /* ThirtytwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8AC24AE32D900EC78A7 /* ThirtytwoViewController.swift */; };
+		1C85D8AF24AE336D00EC78A7 /* ThirtythreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8AE24AE336D00EC78A7 /* ThirtythreeViewController.swift */; };
+		1C85D8B124AE33B500EC78A7 /* ThirtyfourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8B024AE33B500EC78A7 /* ThirtyfourViewController.swift */; };
+		1C85D8B324AE33DF00EC78A7 /* ThirtyfiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8B224AE33DF00EC78A7 /* ThirtyfiveViewController.swift */; };
+		1C85D8B524AE341C00EC78A7 /* ThirtysixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8B424AE341C00EC78A7 /* ThirtysixViewController.swift */; };
+		1C85D8B724AE349200EC78A7 /* ThirtysevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8B624AE349200EC78A7 /* ThirtysevenViewController.swift */; };
+		1C85D8B924AE34E000EC78A7 /* ThirtyeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8B824AE34E000EC78A7 /* ThirtyeightViewController.swift */; };
+		1C85D8BB24AE34F600EC78A7 /* ThirtynineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8BA24AE34F600EC78A7 /* ThirtynineViewController.swift */; };
+		1C85D8BD24AE350E00EC78A7 /* FortyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8BC24AE350E00EC78A7 /* FortyViewController.swift */; };
+		1C85D8BF24AE362200EC78A7 /* FortyoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8BE24AE362200EC78A7 /* FortyoneViewController.swift */; };
+		1C85D8C124AE363F00EC78A7 /* FortytwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8C024AE363F00EC78A7 /* FortytwoViewController.swift */; };
+		1C85D8C324AE365400EC78A7 /* FortythreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8C224AE365400EC78A7 /* FortythreeViewController.swift */; };
+		1C85D8C524AE366800EC78A7 /* FortyfourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8C424AE366800EC78A7 /* FortyfourViewController.swift */; };
+		1C85D8C724AE367D00EC78A7 /* FortyfiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8C624AE367D00EC78A7 /* FortyfiveViewController.swift */; };
+		1C85D8C924AE369700EC78A7 /* FortysixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8C824AE369700EC78A7 /* FortysixViewController.swift */; };
+		1C85D8CB24AE36B000EC78A7 /* FortysevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8CA24AE36B000EC78A7 /* FortysevenViewController.swift */; };
+		1C85D8CD24AE36C300EC78A7 /* FortyeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8CC24AE36C300EC78A7 /* FortyeightViewController.swift */; };
+		1C85D8CF24AE36D400EC78A7 /* FortynineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8CE24AE36D400EC78A7 /* FortynineViewController.swift */; };
+		1C85D8D124AE373400EC78A7 /* FiftyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8D024AE373400EC78A7 /* FiftyViewController.swift */; };
+		1C85D8D324AE375200EC78A7 /* FiftyoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8D224AE375200EC78A7 /* FiftyoneViewController.swift */; };
+		1C85D8D524AE378100EC78A7 /* FiftytwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8D424AE378100EC78A7 /* FiftytwoViewController.swift */; };
+		1C85D8D724AE37C000EC78A7 /* FiftythreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8D624AE37C000EC78A7 /* FiftythreeViewController.swift */; };
+		1C85D8D924AE37DF00EC78A7 /* FiftyfourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8D824AE37DF00EC78A7 /* FiftyfourViewController.swift */; };
+		1C85D8DB24AE37F700EC78A7 /* FiftyfiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8DA24AE37F700EC78A7 /* FiftyfiveViewController.swift */; };
+		1C85D8DD24AE380E00EC78A7 /* FiftysixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8DC24AE380E00EC78A7 /* FiftysixViewController.swift */; };
 		682226AA91FBC1CF9B8D0463 /* Pods_Kode4KidsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC5EF1E002E08B8FDA76CA9 /* Pods_Kode4KidsTests.framework */; };
 		7F035EDD2475580100E3EFAA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F035EDC2475580100E3EFAA /* Utilities.swift */; };
 		7F4FE22324755EA000A287F5 /* Kode4KidsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4FE22024755EA000A287F5 /* Kode4KidsLogo.png */; };
@@ -69,6 +125,62 @@
 		1C433AB9249ACDC3008977F2 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1C85D86624A5AA9A00EC78A7 /* IntrotoCSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrotoCSViewController.swift; sourceTree = "<group>"; };
+		1C85D86A24AE270C00EC78A7 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		1C85D86E24AE29BC00EC78A7 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		1C85D87024AE2AC100EC78A7 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		1C85D87224AE2AD400EC78A7 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		1C85D87424AE2B0800EC78A7 /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		1C85D87624AE2B3000EC78A7 /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
+		1C85D87824AE2B4800EC78A7 /* SevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenViewController.swift; sourceTree = "<group>"; };
+		1C85D87A24AE2B8F00EC78A7 /* EightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightViewController.swift; sourceTree = "<group>"; };
+		1C85D87C24AE2BF400EC78A7 /* NineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineViewController.swift; sourceTree = "<group>"; };
+		1C85D87E24AE2C2B00EC78A7 /* TenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenViewController.swift; sourceTree = "<group>"; };
+		1C85D88024AE2C4600EC78A7 /* ElevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevenViewController.swift; sourceTree = "<group>"; };
+		1C85D88224AE2C9700EC78A7 /* TwelveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelveViewController.swift; sourceTree = "<group>"; };
+		1C85D88424AE2CD600EC78A7 /* ThirteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirteenViewController.swift; sourceTree = "<group>"; };
+		1C85D88624AE2D5800EC78A7 /* FourteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourteenViewController.swift; sourceTree = "<group>"; };
+		1C85D88824AE2D9B00EC78A7 /* FifteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifteenViewController.swift; sourceTree = "<group>"; };
+		1C85D88A24AE2E0C00EC78A7 /* SixteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixteenViewController.swift; sourceTree = "<group>"; };
+		1C85D88C24AE2E6400EC78A7 /* SeventeenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventeenViewController.swift; sourceTree = "<group>"; };
+		1C85D88E24AE2E8800EC78A7 /* EighteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighteenViewController.swift; sourceTree = "<group>"; };
+		1C85D89024AE2F5600EC78A7 /* NineteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineteenViewController.swift; sourceTree = "<group>"; };
+		1C85D89224AE2F6E00EC78A7 /* TwentyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyViewController.swift; sourceTree = "<group>"; };
+		1C85D89424AE302500EC78A7 /* TwentyoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyoneViewController.swift; sourceTree = "<group>"; };
+		1C85D89624AE305800EC78A7 /* TwentytwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentytwoViewController.swift; sourceTree = "<group>"; };
+		1C85D89824AE307000EC78A7 /* TwentythreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentythreeViewController.swift; sourceTree = "<group>"; };
+		1C85D89C24AE30B700EC78A7 /* TwentyfourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyfourViewController.swift; sourceTree = "<group>"; };
+		1C85D89E24AE30EC00EC78A7 /* TwentyfiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyfiveViewController.swift; sourceTree = "<group>"; };
+		1C85D8A024AE311400EC78A7 /* TwentysixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentysixViewController.swift; sourceTree = "<group>"; };
+		1C85D8A224AE313100EC78A7 /* TwentysevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentysevenViewController.swift; sourceTree = "<group>"; };
+		1C85D8A424AE316800EC78A7 /* TwentyeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyeightViewController.swift; sourceTree = "<group>"; };
+		1C85D8A624AE322400EC78A7 /* TwentynineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentynineViewController.swift; sourceTree = "<group>"; };
+		1C85D8A824AE323A00EC78A7 /* ThirtyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyViewController.swift; sourceTree = "<group>"; };
+		1C85D8AA24AE32AC00EC78A7 /* ThirtyoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyoneViewController.swift; sourceTree = "<group>"; };
+		1C85D8AC24AE32D900EC78A7 /* ThirtytwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtytwoViewController.swift; sourceTree = "<group>"; };
+		1C85D8AE24AE336D00EC78A7 /* ThirtythreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtythreeViewController.swift; sourceTree = "<group>"; };
+		1C85D8B024AE33B500EC78A7 /* ThirtyfourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyfourViewController.swift; sourceTree = "<group>"; };
+		1C85D8B224AE33DF00EC78A7 /* ThirtyfiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyfiveViewController.swift; sourceTree = "<group>"; };
+		1C85D8B424AE341C00EC78A7 /* ThirtysixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtysixViewController.swift; sourceTree = "<group>"; };
+		1C85D8B624AE349200EC78A7 /* ThirtysevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtysevenViewController.swift; sourceTree = "<group>"; };
+		1C85D8B824AE34E000EC78A7 /* ThirtyeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyeightViewController.swift; sourceTree = "<group>"; };
+		1C85D8BA24AE34F600EC78A7 /* ThirtynineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtynineViewController.swift; sourceTree = "<group>"; };
+		1C85D8BC24AE350E00EC78A7 /* FortyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyViewController.swift; sourceTree = "<group>"; };
+		1C85D8BE24AE362200EC78A7 /* FortyoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyoneViewController.swift; sourceTree = "<group>"; };
+		1C85D8C024AE363F00EC78A7 /* FortytwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortytwoViewController.swift; sourceTree = "<group>"; };
+		1C85D8C224AE365400EC78A7 /* FortythreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortythreeViewController.swift; sourceTree = "<group>"; };
+		1C85D8C424AE366800EC78A7 /* FortyfourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyfourViewController.swift; sourceTree = "<group>"; };
+		1C85D8C624AE367D00EC78A7 /* FortyfiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyfiveViewController.swift; sourceTree = "<group>"; };
+		1C85D8C824AE369700EC78A7 /* FortysixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortysixViewController.swift; sourceTree = "<group>"; };
+		1C85D8CA24AE36B000EC78A7 /* FortysevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortysevenViewController.swift; sourceTree = "<group>"; };
+		1C85D8CC24AE36C300EC78A7 /* FortyeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyeightViewController.swift; sourceTree = "<group>"; };
+		1C85D8CE24AE36D400EC78A7 /* FortynineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortynineViewController.swift; sourceTree = "<group>"; };
+		1C85D8D024AE373400EC78A7 /* FiftyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftyViewController.swift; sourceTree = "<group>"; };
+		1C85D8D224AE375200EC78A7 /* FiftyoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftyoneViewController.swift; sourceTree = "<group>"; };
+		1C85D8D424AE378100EC78A7 /* FiftytwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftytwoViewController.swift; sourceTree = "<group>"; };
+		1C85D8D624AE37C000EC78A7 /* FiftythreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftythreeViewController.swift; sourceTree = "<group>"; };
+		1C85D8D824AE37DF00EC78A7 /* FiftyfourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftyfourViewController.swift; sourceTree = "<group>"; };
+		1C85D8DA24AE37F700EC78A7 /* FiftyfiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftyfiveViewController.swift; sourceTree = "<group>"; };
+		1C85D8DC24AE380E00EC78A7 /* FiftysixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftysixViewController.swift; sourceTree = "<group>"; };
 		1E58B2BCEA2D2AE164E867D3 /* Pods-Kode4Kids.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4Kids.debug.xcconfig"; path = "Target Support Files/Pods-Kode4Kids/Pods-Kode4Kids.debug.xcconfig"; sourceTree = "<group>"; };
 		3AB115DD4E266FC864B7977B /* Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kode4Kids-Kode4KidsUITests/Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F035EDC2475580100E3EFAA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -238,6 +350,62 @@
 				1C433AB9249ACDC3008977F2 /* NewsViewController.swift */,
 				1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */,
 				1C85D86624A5AA9A00EC78A7 /* IntrotoCSViewController.swift */,
+				1C85D86A24AE270C00EC78A7 /* OneViewController.swift */,
+				1C85D87024AE2AC100EC78A7 /* TwoViewController.swift */,
+				1C85D86E24AE29BC00EC78A7 /* ThreeViewController.swift */,
+				1C85D87224AE2AD400EC78A7 /* FourViewController.swift */,
+				1C85D87424AE2B0800EC78A7 /* FiveViewController.swift */,
+				1C85D87624AE2B3000EC78A7 /* SixViewController.swift */,
+				1C85D87824AE2B4800EC78A7 /* SevenViewController.swift */,
+				1C85D87A24AE2B8F00EC78A7 /* EightViewController.swift */,
+				1C85D87C24AE2BF400EC78A7 /* NineViewController.swift */,
+				1C85D87E24AE2C2B00EC78A7 /* TenViewController.swift */,
+				1C85D88024AE2C4600EC78A7 /* ElevenViewController.swift */,
+				1C85D88224AE2C9700EC78A7 /* TwelveViewController.swift */,
+				1C85D88424AE2CD600EC78A7 /* ThirteenViewController.swift */,
+				1C85D88624AE2D5800EC78A7 /* FourteenViewController.swift */,
+				1C85D88824AE2D9B00EC78A7 /* FifteenViewController.swift */,
+				1C85D88A24AE2E0C00EC78A7 /* SixteenViewController.swift */,
+				1C85D88C24AE2E6400EC78A7 /* SeventeenViewController.swift */,
+				1C85D88E24AE2E8800EC78A7 /* EighteenViewController.swift */,
+				1C85D89024AE2F5600EC78A7 /* NineteenViewController.swift */,
+				1C85D89224AE2F6E00EC78A7 /* TwentyViewController.swift */,
+				1C85D89424AE302500EC78A7 /* TwentyoneViewController.swift */,
+				1C85D89624AE305800EC78A7 /* TwentytwoViewController.swift */,
+				1C85D89824AE307000EC78A7 /* TwentythreeViewController.swift */,
+				1C85D89C24AE30B700EC78A7 /* TwentyfourViewController.swift */,
+				1C85D89E24AE30EC00EC78A7 /* TwentyfiveViewController.swift */,
+				1C85D8A024AE311400EC78A7 /* TwentysixViewController.swift */,
+				1C85D8A224AE313100EC78A7 /* TwentysevenViewController.swift */,
+				1C85D8A424AE316800EC78A7 /* TwentyeightViewController.swift */,
+				1C85D8A624AE322400EC78A7 /* TwentynineViewController.swift */,
+				1C85D8A824AE323A00EC78A7 /* ThirtyViewController.swift */,
+				1C85D8AA24AE32AC00EC78A7 /* ThirtyoneViewController.swift */,
+				1C85D8AC24AE32D900EC78A7 /* ThirtytwoViewController.swift */,
+				1C85D8AE24AE336D00EC78A7 /* ThirtythreeViewController.swift */,
+				1C85D8B024AE33B500EC78A7 /* ThirtyfourViewController.swift */,
+				1C85D8B224AE33DF00EC78A7 /* ThirtyfiveViewController.swift */,
+				1C85D8B424AE341C00EC78A7 /* ThirtysixViewController.swift */,
+				1C85D8B624AE349200EC78A7 /* ThirtysevenViewController.swift */,
+				1C85D8B824AE34E000EC78A7 /* ThirtyeightViewController.swift */,
+				1C85D8BA24AE34F600EC78A7 /* ThirtynineViewController.swift */,
+				1C85D8BC24AE350E00EC78A7 /* FortyViewController.swift */,
+				1C85D8BE24AE362200EC78A7 /* FortyoneViewController.swift */,
+				1C85D8C024AE363F00EC78A7 /* FortytwoViewController.swift */,
+				1C85D8C224AE365400EC78A7 /* FortythreeViewController.swift */,
+				1C85D8C424AE366800EC78A7 /* FortyfourViewController.swift */,
+				1C85D8C624AE367D00EC78A7 /* FortyfiveViewController.swift */,
+				1C85D8C824AE369700EC78A7 /* FortysixViewController.swift */,
+				1C85D8CA24AE36B000EC78A7 /* FortysevenViewController.swift */,
+				1C85D8CC24AE36C300EC78A7 /* FortyeightViewController.swift */,
+				1C85D8CE24AE36D400EC78A7 /* FortynineViewController.swift */,
+				1C85D8D024AE373400EC78A7 /* FiftyViewController.swift */,
+				1C85D8D224AE375200EC78A7 /* FiftyoneViewController.swift */,
+				1C85D8D424AE378100EC78A7 /* FiftytwoViewController.swift */,
+				1C85D8D624AE37C000EC78A7 /* FiftythreeViewController.swift */,
+				1C85D8D824AE37DF00EC78A7 /* FiftyfourViewController.swift */,
+				1C85D8DA24AE37F700EC78A7 /* FiftyfiveViewController.swift */,
+				1C85D8DC24AE380E00EC78A7 /* FiftysixViewController.swift */,
 				7F035EDE2475580700E3EFAA /* Helpers */,
 			);
 			path = "View Controllers";
@@ -501,24 +669,80 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C85D89524AE302500EC78A7 /* TwentyoneViewController.swift in Sources */,
+				1C85D8BD24AE350E00EC78A7 /* FortyViewController.swift in Sources */,
+				1C85D86F24AE29BC00EC78A7 /* ThreeViewController.swift in Sources */,
+				1C85D8D724AE37C000EC78A7 /* FiftythreeViewController.swift in Sources */,
+				1C85D8A124AE311500EC78A7 /* TwentysixViewController.swift in Sources */,
+				1C85D8D924AE37DF00EC78A7 /* FiftyfourViewController.swift in Sources */,
+				1C85D87524AE2B0800EC78A7 /* FiveViewController.swift in Sources */,
+				1C85D8AF24AE336D00EC78A7 /* ThirtythreeViewController.swift in Sources */,
+				1C85D88124AE2C4600EC78A7 /* ElevenViewController.swift in Sources */,
+				1C85D8BF24AE362200EC78A7 /* FortyoneViewController.swift in Sources */,
 				7FD1D70F2471C6C8009739DB /* ViewController.swift in Sources */,
+				1C85D8D124AE373400EC78A7 /* FiftyViewController.swift in Sources */,
 				7FE47342248FA78900B2A84B /* ResetViewController.swift in Sources */,
 				7FD1D70B2471C6C8009739DB /* AppDelegate.swift in Sources */,
+				1C85D8DB24AE37F700EC78A7 /* FiftyfiveViewController.swift in Sources */,
 				7F035EDD2475580100E3EFAA /* Utilities.swift in Sources */,
+				1C85D87B24AE2B8F00EC78A7 /* EightViewController.swift in Sources */,
+				1C85D8D524AE378100EC78A7 /* FiftytwoViewController.swift in Sources */,
+				1C85D8B124AE33B500EC78A7 /* ThirtyfourViewController.swift in Sources */,
+				1C85D8A724AE322400EC78A7 /* TwentynineViewController.swift in Sources */,
+				1C85D8DD24AE380E00EC78A7 /* FiftysixViewController.swift in Sources */,
 				1C85D86724A5AA9A00EC78A7 /* IntrotoCSViewController.swift in Sources */,
 				7FD1D70D2471C6C8009739DB /* SceneDelegate.swift in Sources */,
+				1C85D8C724AE367D00EC78A7 /* FortyfiveViewController.swift in Sources */,
+				1C85D8AD24AE32D900EC78A7 /* ThirtytwoViewController.swift in Sources */,
+				1C85D89F24AE30EC00EC78A7 /* TwentyfiveViewController.swift in Sources */,
 				1C433AB2249ACD3C008977F2 /* SubjectsViewController.swift in Sources */,
+				1C85D8CD24AE36C300EC78A7 /* FortyeightViewController.swift in Sources */,
 				1C433AB6249ACD8A008977F2 /* ForumViewController.swift in Sources */,
 				7FE2D73A2474871A006A954F /* HomeViewController.swift in Sources */,
+				1C85D87F24AE2C2B00EC78A7 /* TenViewController.swift in Sources */,
+				1C85D8A324AE313100EC78A7 /* TwentysevenViewController.swift in Sources */,
+				1C85D87324AE2AD400EC78A7 /* FourViewController.swift in Sources */,
+				1C85D8A524AE316800EC78A7 /* TwentyeightViewController.swift in Sources */,
 				1C433AB4249ACD60008977F2 /* NotesViewController.swift in Sources */,
+				1C85D87D24AE2BF400EC78A7 /* NineViewController.swift in Sources */,
+				1C85D89124AE2F5600EC78A7 /* NineteenViewController.swift in Sources */,
+				1C85D8C924AE369700EC78A7 /* FortysixViewController.swift in Sources */,
+				1C85D88924AE2D9B00EC78A7 /* FifteenViewController.swift in Sources */,
+				1C85D87124AE2AC100EC78A7 /* TwoViewController.swift in Sources */,
+				1C85D8B724AE349200EC78A7 /* ThirtysevenViewController.swift in Sources */,
+				1C85D8C324AE365400EC78A7 /* FortythreeViewController.swift in Sources */,
+				1C85D88B24AE2E0C00EC78A7 /* SixteenViewController.swift in Sources */,
 				1C433AB0249ACCE3008977F2 /* ProfileViewController.swift in Sources */,
+				1C85D88324AE2C9700EC78A7 /* TwelveViewController.swift in Sources */,
 				1C433AB8249ACDAA008977F2 /* AboutUsViewController.swift in Sources */,
+				1C85D8AB24AE32AC00EC78A7 /* ThirtyoneViewController.swift in Sources */,
+				1C85D89924AE307000EC78A7 /* TwentythreeViewController.swift in Sources */,
 				7FE2D73824748708006A954F /* LoginViewController.swift in Sources */,
+				1C85D8CB24AE36B000EC78A7 /* FortysevenViewController.swift in Sources */,
 				1C433ABC249ACE2A008977F2 /* SettingsViewController.swift in Sources */,
+				1C85D87924AE2B4800EC78A7 /* SevenViewController.swift in Sources */,
+				1C85D89324AE2F6E00EC78A7 /* TwentyViewController.swift in Sources */,
 				7F8B5B59249943860015382D /* Service.swift in Sources */,
+				1C85D88D24AE2E6400EC78A7 /* SeventeenViewController.swift in Sources */,
+				1C85D8CF24AE36D400EC78A7 /* FortynineViewController.swift in Sources */,
 				7FE2D736247486ED006A954F /* RegisterViewController.swift in Sources */,
+				1C85D86B24AE270C00EC78A7 /* OneViewController.swift in Sources */,
+				1C85D88524AE2CD600EC78A7 /* ThirteenViewController.swift in Sources */,
+				1C85D8B324AE33DF00EC78A7 /* ThirtyfiveViewController.swift in Sources */,
+				1C85D8B524AE341C00EC78A7 /* ThirtysixViewController.swift in Sources */,
+				1C85D8A924AE323A00EC78A7 /* ThirtyViewController.swift in Sources */,
+				1C85D8C524AE366800EC78A7 /* FortyfourViewController.swift in Sources */,
+				1C85D8BB24AE34F600EC78A7 /* ThirtynineViewController.swift in Sources */,
+				1C85D89D24AE30B700EC78A7 /* TwentyfourViewController.swift in Sources */,
+				1C85D87724AE2B3000EC78A7 /* SixViewController.swift in Sources */,
+				1C85D8D324AE375200EC78A7 /* FiftyoneViewController.swift in Sources */,
 				7FA7F44324780F8A003DA822 /* Constants.swift in Sources */,
+				1C85D89724AE305800EC78A7 /* TwentytwoViewController.swift in Sources */,
+				1C85D88724AE2D5800EC78A7 /* FourteenViewController.swift in Sources */,
+				1C85D8C124AE363F00EC78A7 /* FortytwoViewController.swift in Sources */,
 				1C433ABA249ACDC3008977F2 /* NewsViewController.swift in Sources */,
+				1C85D8B924AE34E000EC78A7 /* ThirtyeightViewController.swift in Sources */,
+				1C85D88F24AE2E8800EC78A7 /* EighteenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
