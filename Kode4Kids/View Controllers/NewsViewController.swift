@@ -49,11 +49,11 @@ struct NewsViewController: View {
                         Text(i.desc)
                     }
                     
-                    WebImage(url: URL, options: SDWebImageOptions, 
+                    WebImage(url: URL, options: SDWebImageOptions)
+                    
                 }
-            })
         }
-    }
+    
 }
 
 struct NewsViewController_Previews: PreviewProvider {
@@ -101,6 +101,8 @@ class getData : ObservableObject{
                 self.datas.append(dataType(id: id, title: title, desc: description, url: url, image: image))
                 
                 
+                    }
+                }
             }
         }
     }

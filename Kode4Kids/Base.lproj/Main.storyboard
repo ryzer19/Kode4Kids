@@ -1305,7 +1305,7 @@
         <!--Programming View Controller-->
         <scene sceneID="2N2-3R-kqm">
             <objects>
-                <viewController id="dkt-A2-qzi" userLabel="Programming View Controller" sceneMemberID="viewController">
+                <viewController id="dkt-A2-qzi" userLabel="Programming View Controller" customClass="ProgrammingViewController" customModule="Kode4Kids" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UVE-BV-dbK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1489,7 +1489,7 @@
         <!--MAD View Controller-->
         <scene sceneID="CGX-Zd-laM">
             <objects>
-                <viewController id="rmv-Pi-2Vk" userLabel="MAD View Controller" sceneMemberID="viewController">
+                <viewController id="rmv-Pi-2Vk" userLabel="MAD View Controller" customClass="MADViewController" customModule="Kode4Kids" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BI6-VX-gZC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1763,7 +1763,7 @@
         <!--Databases View Controller-->
         <scene sceneID="jTI-pR-cJl">
             <objects>
-                <viewController id="Psd-VQ-o1Z" userLabel="Databases View Controller" sceneMemberID="viewController">
+                <viewController id="Psd-VQ-o1Z" userLabel="Databases View Controller" customClass="DatabasesViewController" customModule="Kode4Kids" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t6l-Eg-cFs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2037,7 +2037,7 @@
         <!--WebD View Controller-->
         <scene sceneID="8yT-nr-tWU">
             <objects>
-                <viewController id="iEY-A0-ja2" userLabel="WebD View Controller" sceneMemberID="viewController">
+                <viewController id="iEY-A0-ja2" userLabel="WebD View Controller" customClass="WebDViewController" customModule="Kode4Kids" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J25-eN-BL1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2386,7 +2386,7 @@
         <!--WebDev View Controller-->
         <scene sceneID="UKs-gb-3ux">
             <objects>
-                <viewController id="2Eo-1S-dU3" userLabel="WebDev View Controller" sceneMemberID="viewController">
+                <viewController id="2Eo-1S-dU3" userLabel="WebDev View Controller" customClass="WebDevViewController" customModule="Kode4Kids" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wER-1K-mCM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2660,7 +2660,7 @@
         <!--CloudC View Controller-->
         <scene sceneID="kE4-49-NSn">
             <objects>
-                <viewController id="BgP-A2-h4g" userLabel="CloudC View Controller" sceneMemberID="viewController">
+                <viewController id="BgP-A2-h4g" userLabel="CloudC View Controller" customClass="CloudCViewController" customModule="Kode4Kids" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="on4-gb-Gv8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2934,7 +2934,7 @@
         <!--GameDev View Controller-->
         <scene sceneID="ZwD-G9-t9h">
             <objects>
-                <viewController id="C0S-a6-ZQG" userLabel="GameDev View Controller" sceneMemberID="viewController">
+                <viewController id="C0S-a6-ZQG" userLabel="GameDev View Controller" customClass="GameDevViewController" customModule="Kode4Kids" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="maM-E6-vcG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
