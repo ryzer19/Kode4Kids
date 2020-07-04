@@ -2383,7 +2383,7 @@
                                         <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="DDB-EH-S9K">
                                             <color key="tintColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
-                                                <action selector="backTapped:" destination="hZE-1c-vV8" id="TQt-LE-xK1"/>
+                                                <action selector="bTapped:" destination="cbs-xu-sT3" id="arP-Pt-qWI"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -3747,7 +3747,7 @@
                                         <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="GsC-1W-8YN">
                                             <color key="tintColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
-                                                <action selector="backTapped:" destination="U6H-7q-37r" id="6gd-ao-9Pk"/>
+                                                <action selector="bTapped:" destination="U6H-7q-37r" id="VDi-Mi-Ag8"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
