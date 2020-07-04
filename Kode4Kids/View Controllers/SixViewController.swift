@@ -9,7 +9,16 @@
 import UIKit
 
 class SixViewController: UIViewController {
-
+    
+   
+    @IBAction func backTapped(_ sender: Any) {
+        
+         let webdViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.webdViewController) as? WebDViewController
+                         
+                         self.view.window?.rootViewController = webdViewController
+                         self.view.window?.makeKeyAndVisible()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
