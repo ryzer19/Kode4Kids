@@ -9,7 +9,9 @@
 import UIKit
 
 class FortythreeViewController: UIViewController {
-
+    @IBAction func backTapped(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -10,6 +10,26 @@ import UIKit
 
 class MADViewController: UIViewController {
 
+    @IBAction func wimadTapped(_ sender: Any) {
+
+    }
+    
+    @IBAction func plTapped(_ sender: Any) {
+    }
+    
+    @IBAction func langTapped(_ sender: Any) {
+    }
+    @IBAction func guiTapped(_ sender: Any) {
+    }
+    @IBAction func prTapped(_ sender: Any) {
+    }
+    @IBAction func fedTapped(_ sender: Any) {
+    }
+    @IBAction func bedTapped(_ sender: Any) {
+    }
+    @IBAction func trTapped(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

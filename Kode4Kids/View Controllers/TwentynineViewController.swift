@@ -9,7 +9,10 @@
 import UIKit
 
 class TwentynineViewController: UIViewController {
-
+    
+    @IBAction func backTapped(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

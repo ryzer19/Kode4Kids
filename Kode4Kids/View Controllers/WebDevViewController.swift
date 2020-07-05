@@ -10,6 +10,24 @@ import UIKit
 
 class WebDevViewController: UIViewController {
 
+    @IBAction func wiwdTapped(_ sender: Any) {
+    }
+    @IBAction func sfTapped(_ sender: Any) {
+    }
+    @IBAction func domTapped(_ sender: Any) {
+    }
+    
+    @IBAction func cssTapped(_ sender: Any) {
+    }
+    @IBAction func mulTapped(_ sender: Any) {
+    }
+    @IBAction func framTapped(_ sender: Any) {
+    }
+    @IBAction func secTapped(_ sender: Any) {
+    }
+    @IBAction func atTapped(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

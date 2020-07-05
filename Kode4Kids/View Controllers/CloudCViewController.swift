@@ -9,7 +9,23 @@
 import UIKit
 
 class CloudCViewController: UIViewController {
-
+    @IBAction func clocTapped(_ sender: Any) {
+    }
+    @IBAction func cltTapped(_ sender: Any) {
+    }
+    @IBAction func claTapped(_ sender: Any) {
+    }
+    @IBAction func stTapped(_ sender: Any) {
+    }
+    @IBAction func seTapped(_ sender: Any) {
+    }
+    @IBAction func clcTapped(_ sender: Any) {
+    }
+    @IBAction func dataTapped(_ sender: Any) {
+    }
+    @IBAction func adTapped(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

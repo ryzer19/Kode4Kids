@@ -9,7 +9,26 @@
 import UIKit
 
 class GameDevViewController: UIViewController {
-
+    
+    
+    @IBAction func wigdTapped(_ sender: Any) {
+    }
+    @IBAction func dtapped(_ sender: Any) {
+    }
+    @IBAction func plTapped(_ sender: Any) {
+    }
+    @IBAction func prTapped(_ sender: Any) {
+    }
+    @IBAction func dpTapped(_ sender: Any) {
+    }
+    @IBAction func daTapped(_ sender: Any) {
+    }
+    @IBAction func proTapped(_ sender: Any) {
+    }
+    
+    @IBAction func ftTapped(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

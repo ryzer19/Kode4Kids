@@ -9,7 +9,24 @@
 import UIKit
 
 class DatabasesViewController: UIViewController {
-
+    
+    @IBAction func dbTapped(_ sender: Any) {
+    }
+    @IBAction func tdbTapped(_ sender: Any) {
+    }
+    @IBAction func dblTapped(_ sender: Any) {
+    }
+    @IBAction func dbmsTapped(_ sender: Any) {
+    }
+    @IBAction func dTapped(_ sender: Any) {
+    }
+    @IBAction func dbpTapped(_ sender: Any) {
+    }
+    @IBAction func coTapped(_ sender: Any) {
+    }
+    @IBAction func impTapped(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

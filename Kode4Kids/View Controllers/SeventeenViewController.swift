@@ -10,6 +10,8 @@ import UIKit
 
 class SeventeenViewController: UIViewController {
 
+    @IBAction func backTapped(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
