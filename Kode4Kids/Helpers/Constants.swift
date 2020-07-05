@@ -37,6 +37,16 @@ struct Constants {
         static let eightViewController = "eight"
         
         static let nineViewController = "nine"
+        static let tenViewController = "ten"
+               static let elevenViewController = "eleven"
+               static let twelveViewController = "twelve"
+               static let thirteenViewController = "thirteen"
+               static let fourteenViewController = "fourteen"
+               static let fifteenViewController = "fifteen"
+               static let sixteenViewController = "sixteen"
+               static let seventeenViewController = "seventeen"
+               static let eighteenViewController = "eighteen"
+               static let nineteenViewController = "nineteen"
 
         
         

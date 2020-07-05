@@ -10,6 +10,14 @@ import UIKit
 
 class TenViewController: UIViewController {
 
+    @IBAction func backTapped(_ sender: Any) {
+        
+        let subjectsViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.subjectsViewController) as? SubjectsViewController
+        
+        self.view.window?.rootViewController = subjectsViewController
+        self.view.window?.makeKeyAndVisible()
+
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
