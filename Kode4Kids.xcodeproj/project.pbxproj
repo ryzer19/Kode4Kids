@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D0CDAC24B1480200339997 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D0CDAB24B1480200339997 /* Post.swift */; };
+		06D9D48424B1111A004F934B /* ForumViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D9D48324B1111A004F934B /* ForumViewCell.xib */; };
 		1C433AB0249ACCE3008977F2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AAF249ACCE3008977F2 /* ProfileViewController.swift */; };
 		1C433AB2249ACD3C008977F2 /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB1249ACD3C008977F2 /* SubjectsViewController.swift */; };
 		1C433AB4249ACD60008977F2 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB3249ACD60008977F2 /* NotesViewController.swift */; };
@@ -122,6 +124,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D0CDAB24B1480200339997 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		06D9D48324B1111A004F934B /* ForumViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForumViewCell.xib; sourceTree = "<group>"; };
 		10F431729217EEDEBEC0042C /* Pods-Kode4KidsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4KidsTests.release.xcconfig"; path = "Target Support Files/Pods-Kode4KidsTests/Pods-Kode4KidsTests.release.xcconfig"; sourceTree = "<group>"; };
 		1AC5EF1E002E08B8FDA76CA9 /* Pods_Kode4KidsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kode4KidsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C433AAF249ACCE3008977F2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -259,6 +263,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06D0CDAA24B147B000339997 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06D0CDAB24B1480200339997 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1AA731A6076FC1FA3E5DB8D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +372,8 @@
 				1C433AB1249ACD3C008977F2 /* SubjectsViewController.swift */,
 				1C433AB3249ACD60008977F2 /* NotesViewController.swift */,
 				1C433AB5249ACD8A008977F2 /* ForumViewController.swift */,
+				06D0CDAA24B147B000339997 /* Models */,
+				06D9D48324B1111A004F934B /* ForumViewCell.xib */,
 				1C433AB7249ACDAA008977F2 /* AboutUsViewController.swift */,
 				1C433AB9249ACDC3008977F2 /* NewsViewController.swift */,
 				1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */,
@@ -562,6 +576,7 @@
 				7F75719324A9FC58003080FB /* Insta logo.png in Resources */,
 				7F59B63924AA3F0D004E3766 /* YT logo.png in Resources */,
 				7F75719724AA0C24003080FB /* Settings.bundle in Resources */,
+				06D9D48424B1111A004F934B /* ForumViewCell.xib in Resources */,
 				7FD1D7122471C6C8009739DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -693,6 +708,7 @@
 				1C85D89524AE302500EC78A7 /* TwentyoneViewController.swift in Sources */,
 				1C85D8BD24AE350E00EC78A7 /* FortyViewController.swift in Sources */,
 				1C85D86F24AE29BC00EC78A7 /* ThreeViewController.swift in Sources */,
+				06D0CDAC24B1480200339997 /* Post.swift in Sources */,
 				1C85D8D724AE37C000EC78A7 /* FiftythreeViewController.swift in Sources */,
 				1C85D8A124AE311500EC78A7 /* TwentysixViewController.swift in Sources */,
 				1C85D8D924AE37DF00EC78A7 /* FiftyfourViewController.swift in Sources */,
