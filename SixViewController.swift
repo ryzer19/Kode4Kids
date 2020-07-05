@@ -1,22 +1,14 @@
 //
 //  SixViewController.swift
-//  Kode4Kids
+//  
 //
 //  Created by Caleb Clegg on 04/07/2020.
-//  Copyright © 2020 Group9. All rights reserved.
 //
 
 import UIKit
 
 class SixViewController: UIViewController {
 
-    @IBAction func bTapped(_ sender: Any) {
-        
-        let webdViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.webdViewController) as? WebDViewController
-               
-               self.view.window?.rootViewController = webdViewController
-               self.view.window?.makeKeyAndVisible()
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -24,6 +24,21 @@ struct Constants {
         static let entryViewController = "new"
         static let noteViewController = "note"
         static let introtocsViewController = "IntroCSVC"
+        static let webdViewController = "webdVC"
+        
+        
+        static let oneViewController = "one"
+        static let twoViewController = "two"
+        static let threeViewController = "three"
+        static let fourViewController = "four"
+        static let fiveViewController = "five"
+        static let sixViewController = "six"
+        static let sevenViewController = "seven"
+        static let eightViewController = "eight"
+        
+        static let nineViewController = "nine"
+
+        
         
     }
 

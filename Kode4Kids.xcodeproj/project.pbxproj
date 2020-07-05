@@ -22,7 +22,6 @@
 		1C85D87124AE2AC100EC78A7 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87024AE2AC100EC78A7 /* TwoViewController.swift */; };
 		1C85D87324AE2AD400EC78A7 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87224AE2AD400EC78A7 /* FourViewController.swift */; };
 		1C85D87524AE2B0800EC78A7 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87424AE2B0800EC78A7 /* FiveViewController.swift */; };
-		1C85D87724AE2B3000EC78A7 /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87624AE2B3000EC78A7 /* SixViewController.swift */; };
 		1C85D87924AE2B4800EC78A7 /* SevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87824AE2B4800EC78A7 /* SevenViewController.swift */; };
 		1C85D87B24AE2B8F00EC78A7 /* EightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87A24AE2B8F00EC78A7 /* EightViewController.swift */; };
 		1C85D87D24AE2BF400EC78A7 /* NineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D87C24AE2BF400EC78A7 /* NineViewController.swift */; };
@@ -73,13 +72,14 @@
 		1C85D8D924AE37DF00EC78A7 /* FiftyfourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8D824AE37DF00EC78A7 /* FiftyfourViewController.swift */; };
 		1C85D8DB24AE37F700EC78A7 /* FiftyfiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8DA24AE37F700EC78A7 /* FiftyfiveViewController.swift */; };
 		1C85D8DD24AE380E00EC78A7 /* FiftysixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8DC24AE380E00EC78A7 /* FiftysixViewController.swift */; };
-		1C85D8DF24AFD88900EC78A7 /* WebDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8DE24AFD88900EC78A7 /* WebDViewController.swift */; };
 		1C85D8E124AFD8DB00EC78A7 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8E024AFD8DB00EC78A7 /* ProgrammingViewController.swift */; };
 		1C85D8E324AFD92A00EC78A7 /* WebDevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8E224AFD92A00EC78A7 /* WebDevViewController.swift */; };
 		1C85D8E524AFD97C00EC78A7 /* MADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8E424AFD97C00EC78A7 /* MADViewController.swift */; };
 		1C85D8E724AFD9A200EC78A7 /* CloudCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8E624AFD9A200EC78A7 /* CloudCViewController.swift */; };
 		1C85D8E924AFD9C100EC78A7 /* DatabasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8E824AFD9C100EC78A7 /* DatabasesViewController.swift */; };
 		1C85D8EB24AFDA0E00EC78A7 /* GameDevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8EA24AFDA0E00EC78A7 /* GameDevViewController.swift */; };
+		1C85D8ED24B1212E00EC78A7 /* WebDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8EC24B1212E00EC78A7 /* WebDViewController.swift */; };
+		1C85D8EF24B132DD00EC78A7 /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8EE24B132DD00EC78A7 /* SixViewController.swift */; };
 		682226AA91FBC1CF9B8D0463 /* Pods_Kode4KidsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC5EF1E002E08B8FDA76CA9 /* Pods_Kode4KidsTests.framework */; };
 		7F035EDD2475580100E3EFAA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F035EDC2475580100E3EFAA /* Utilities.swift */; };
 		7F4FE22324755EA000A287F5 /* Kode4KidsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4FE22024755EA000A287F5 /* Kode4KidsLogo.png */; };
@@ -141,7 +141,6 @@
 		1C85D87024AE2AC100EC78A7 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 		1C85D87224AE2AD400EC78A7 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
 		1C85D87424AE2B0800EC78A7 /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
-		1C85D87624AE2B3000EC78A7 /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
 		1C85D87824AE2B4800EC78A7 /* SevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenViewController.swift; sourceTree = "<group>"; };
 		1C85D87A24AE2B8F00EC78A7 /* EightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightViewController.swift; sourceTree = "<group>"; };
 		1C85D87C24AE2BF400EC78A7 /* NineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineViewController.swift; sourceTree = "<group>"; };
@@ -192,13 +191,14 @@
 		1C85D8D824AE37DF00EC78A7 /* FiftyfourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftyfourViewController.swift; sourceTree = "<group>"; };
 		1C85D8DA24AE37F700EC78A7 /* FiftyfiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftyfiveViewController.swift; sourceTree = "<group>"; };
 		1C85D8DC24AE380E00EC78A7 /* FiftysixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftysixViewController.swift; sourceTree = "<group>"; };
-		1C85D8DE24AFD88900EC78A7 /* WebDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDViewController.swift; sourceTree = "<group>"; };
 		1C85D8E024AFD8DB00EC78A7 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		1C85D8E224AFD92A00EC78A7 /* WebDevViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDevViewController.swift; sourceTree = "<group>"; };
 		1C85D8E424AFD97C00EC78A7 /* MADViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADViewController.swift; sourceTree = "<group>"; };
 		1C85D8E624AFD9A200EC78A7 /* CloudCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCViewController.swift; sourceTree = "<group>"; };
 		1C85D8E824AFD9C100EC78A7 /* DatabasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabasesViewController.swift; sourceTree = "<group>"; };
 		1C85D8EA24AFDA0E00EC78A7 /* GameDevViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDevViewController.swift; sourceTree = "<group>"; };
+		1C85D8EC24B1212E00EC78A7 /* WebDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDViewController.swift; sourceTree = "<group>"; };
+		1C85D8EE24B132DD00EC78A7 /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
 		1E58B2BCEA2D2AE164E867D3 /* Pods-Kode4Kids.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4Kids.debug.xcconfig"; path = "Target Support Files/Pods-Kode4Kids/Pods-Kode4Kids.debug.xcconfig"; sourceTree = "<group>"; };
 		3AB115DD4E266FC864B7977B /* Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kode4Kids-Kode4KidsUITests/Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F035EDC2475580100E3EFAA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -378,7 +378,7 @@
 				1C433AB9249ACDC3008977F2 /* NewsViewController.swift */,
 				1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */,
 				1C85D86624A5AA9A00EC78A7 /* IntrotoCSViewController.swift */,
-				1C85D8DE24AFD88900EC78A7 /* WebDViewController.swift */,
+				1C85D8EC24B1212E00EC78A7 /* WebDViewController.swift */,
 				1C85D8E024AFD8DB00EC78A7 /* ProgrammingViewController.swift */,
 				1C85D8E224AFD92A00EC78A7 /* WebDevViewController.swift */,
 				1C85D8E424AFD97C00EC78A7 /* MADViewController.swift */,
@@ -390,7 +390,7 @@
 				1C85D86E24AE29BC00EC78A7 /* ThreeViewController.swift */,
 				1C85D87224AE2AD400EC78A7 /* FourViewController.swift */,
 				1C85D87424AE2B0800EC78A7 /* FiveViewController.swift */,
-				1C85D87624AE2B3000EC78A7 /* SixViewController.swift */,
+				1C85D8EE24B132DD00EC78A7 /* SixViewController.swift */,
 				1C85D87824AE2B4800EC78A7 /* SevenViewController.swift */,
 				1C85D87A24AE2B8F00EC78A7 /* EightViewController.swift */,
 				1C85D87C24AE2BF400EC78A7 /* NineViewController.swift */,
@@ -715,6 +715,7 @@
 				1C85D87524AE2B0800EC78A7 /* FiveViewController.swift in Sources */,
 				1C85D8AF24AE336D00EC78A7 /* ThirtythreeViewController.swift in Sources */,
 				1C85D88124AE2C4600EC78A7 /* ElevenViewController.swift in Sources */,
+				1C85D8ED24B1212E00EC78A7 /* WebDViewController.swift in Sources */,
 				1C85D8BF24AE362200EC78A7 /* FortyoneViewController.swift in Sources */,
 				7FD1D70F2471C6C8009739DB /* ViewController.swift in Sources */,
 				1C85D8D124AE373400EC78A7 /* FiftyViewController.swift in Sources */,
@@ -733,7 +734,6 @@
 				7FD1D70D2471C6C8009739DB /* SceneDelegate.swift in Sources */,
 				1C85D8C724AE367D00EC78A7 /* FortyfiveViewController.swift in Sources */,
 				1C85D8E124AFD8DB00EC78A7 /* ProgrammingViewController.swift in Sources */,
-				1C85D8DF24AFD88900EC78A7 /* WebDViewController.swift in Sources */,
 				1C85D8AD24AE32D900EC78A7 /* ThirtytwoViewController.swift in Sources */,
 				1C85D89F24AE30EC00EC78A7 /* TwentyfiveViewController.swift in Sources */,
 				1C433AB2249ACD3C008977F2 /* SubjectsViewController.swift in Sources */,
@@ -769,13 +769,13 @@
 				7FE2D736247486ED006A954F /* RegisterViewController.swift in Sources */,
 				1C85D86B24AE270C00EC78A7 /* OneViewController.swift in Sources */,
 				1C85D88524AE2CD600EC78A7 /* ThirteenViewController.swift in Sources */,
+				1C85D8EF24B132DD00EC78A7 /* SixViewController.swift in Sources */,
 				1C85D8B324AE33DF00EC78A7 /* ThirtyfiveViewController.swift in Sources */,
 				1C85D8B524AE341C00EC78A7 /* ThirtysixViewController.swift in Sources */,
 				1C85D8A924AE323A00EC78A7 /* ThirtyViewController.swift in Sources */,
 				1C85D8C524AE366800EC78A7 /* FortyfourViewController.swift in Sources */,
 				1C85D8BB24AE34F600EC78A7 /* ThirtynineViewController.swift in Sources */,
 				1C85D89D24AE30B700EC78A7 /* TwentyfourViewController.swift in Sources */,
-				1C85D87724AE2B3000EC78A7 /* SixViewController.swift in Sources */,
 				1C85D8EB24AFDA0E00EC78A7 /* GameDevViewController.swift in Sources */,
 				1C85D8E324AFD92A00EC78A7 /* WebDevViewController.swift in Sources */,
 				1C85D8D324AE375200EC78A7 /* FiftyoneViewController.swift in Sources */,
