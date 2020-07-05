@@ -67,7 +67,7 @@ struct Constants {
 
        static let thirtyViewController = "thirty"
        static let thirtyoneViewController = "thirtyone"
-       static let thirtywoViewController = "thirtytwo"
+       static let thirtytwoViewController = "thirtytwo"
        static let thirtythreeViewController = "thirtythree"
        static let thirtyfourViewController = "thirtyfour"
        static let thirtyfiveViewController = "thirtyfive"

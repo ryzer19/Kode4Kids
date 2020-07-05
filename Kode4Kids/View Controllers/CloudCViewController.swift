@@ -9,21 +9,56 @@
 import UIKit
 
 class CloudCViewController: UIViewController {
+    
     @IBAction func clocTapped(_ sender: Any) {
+        
+        let twentyfiveViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.twentyfiveViewController) as? TwentyfiveViewController
+                                   
+                                   self.view.window?.rootViewController = twentyfiveViewController
+                                   self.view.window?.makeKeyAndVisible()
     }
     @IBAction func cltTapped(_ sender: Any) {
+        let twentysixViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.twentysixViewController) as? TwentysixViewController
+                                   
+                                   self.view.window?.rootViewController = twentysixViewController
+                                   self.view.window?.makeKeyAndVisible()
     }
     @IBAction func claTapped(_ sender: Any) {
+        let twentysevenViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.twentysevenViewController) as? TwentysevenViewController
+                                   
+                                   self.view.window?.rootViewController = twentysevenViewController
+                                   self.view.window?.makeKeyAndVisible()
     }
     @IBAction func stTapped(_ sender: Any) {
+        let twentyeightViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.twentyeightViewController) as? TwentyeightViewController
+                                   
+                                   self.view.window?.rootViewController = twentyeightViewController
+                                   self.view.window?.makeKeyAndVisible()
     }
     @IBAction func seTapped(_ sender: Any) {
+        let twentynineViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.twentynineViewController) as? TwentynineViewController
+                                   
+                                   self.view.window?.rootViewController = twentynineViewController
+                                   self.view.window?.makeKeyAndVisible()
     }
     @IBAction func clcTapped(_ sender: Any) {
+        let thirtyViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.thirtyViewController) as? ThirtyViewController
+                                   
+                                   self.view.window?.rootViewController = thirtyViewController
+                                   self.view.window?.makeKeyAndVisible()
     }
     @IBAction func dataTapped(_ sender: Any) {
+        let thirtyoneViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.thirtyoneViewController) as? ThirtyoneViewController
+                                   
+                                   self.view.window?.rootViewController = thirtyoneViewController
+                                   self.view.window?.makeKeyAndVisible()
     }
     @IBAction func adTapped(_ sender: Any) {
+      
+         let thirtytwoViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.thirtytwoViewController) as? ThirtytwoViewController
+                                          
+                                          self.view.window?.rootViewController = thirtytwoViewController
+                                          self.view.window?.makeKeyAndVisible()
     }
     
     override func viewDidLoad() {
