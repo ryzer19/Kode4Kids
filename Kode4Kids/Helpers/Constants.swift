@@ -25,6 +25,12 @@ struct Constants {
         static let noteViewController = "note"
         static let introtocsViewController = "IntroCSVC"
         static let webdViewController = "webdVC"
+        static let programmingViewController = "programmingVC"
+        static let webdevViewController = "webdevVC"
+        static let madViewController = "madVC"
+        static let cloudcViewController = "cloudcVC"
+        static let databasesViewController = "databasesVC"
+        static let gamedevViewController = "gamedevVC"
         
         
         static let oneViewController = "one"
@@ -47,6 +53,49 @@ struct Constants {
                static let seventeenViewController = "seventeen"
                static let eighteenViewController = "eighteen"
                static let nineteenViewController = "nineteen"
+        
+        static let twentyViewController = "twenty"
+        static let twentyoneViewController = "twentyone"
+        static let twentytwoViewController = "twentytwo"
+        static let twentythreeViewController = "twentythree"
+        static let twentyfourViewController = "twentyfour"
+       static let twentyfiveViewController = "twentyfive"
+       static let twentysixViewController = "twentysix"
+       static let twentysevenViewController = "twentyseven"
+       static let twentyeightViewController = "twentyeight"
+       static let twentynineViewController = "twentynine"
+
+       static let thirtyViewController = "thirty"
+       static let thirtyoneViewController = "thirtyone"
+       static let thirtywoViewController = "thirtytwo"
+       static let thirtythreeViewController = "thirtythree"
+       static let thirtyfourViewController = "thirtyfour"
+       static let thirtyfiveViewController = "thirtyfive"
+       static let thirtysixViewController = "thirtysix"
+       static let thirtysevenViewController = "thirtyseven"
+       static let thirtyeightViewController = "thirtyeight"
+       static let thirtynineViewController = "thirtynine"
+
+       static let fortyViewController = "forty"
+       static let fortyoneViewController = "fortyone"
+       static let fortytwoViewController = "fortytwo"
+       static let fortythreeViewController = "fortythree"
+       static let fortyfourViewController = "fortyfour"
+       static let fortyfiveViewController = "fortyfive"
+       static let fortysixViewController = "fortysix"
+       static let fortysevenViewController = "fortyseven"
+       static let fortyeightViewController = "fortyeight"
+       static let fortynineViewController = "fortynine"
+
+       static let fiftyViewController = "fifty"
+       static let fiftyoneViewController = "fityone"
+       static let fiftytwoViewController = "fiftytwo"
+       static let fiftythreeViewController = "fiftythree"
+       static let fiftyfourViewController = "fiftyfour"
+       static let fiftyfiveViewController = "fiftyfive"
+       static let fiftysixViewController = "fiftysix"
+
+
 
         
         
