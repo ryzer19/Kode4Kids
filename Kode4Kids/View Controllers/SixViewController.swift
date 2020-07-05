@@ -12,10 +12,11 @@ class SixViewController: UIViewController {
 
     @IBAction func bTapped(_ sender: Any) {
         
-        let webdViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.webdViewController) as? WebDViewController
+      let subjectsViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.subjectsViewController) as? SubjectsViewController
                
-               self.view.window?.rootViewController = webdViewController
+               self.view.window?.rootViewController = subjectsViewController
                self.view.window?.makeKeyAndVisible()
+
     }
     override func viewDidLoad() {
         super.viewDidLoad()

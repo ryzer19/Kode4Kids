@@ -12,10 +12,11 @@ class FourViewController: UIViewController {
 
     @IBAction func backTapped(_ sender: Any) {
         
-          let webdViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.webdViewController) as? WebDViewController
-                   
-                   self.view.window?.rootViewController = webdViewController
-                   self.view.window?.makeKeyAndVisible()
+         let subjectsViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.subjectsViewController) as? SubjectsViewController
+                 
+                 self.view.window?.rootViewController = subjectsViewController
+                 self.view.window?.makeKeyAndVisible()
+
 
         
     }
