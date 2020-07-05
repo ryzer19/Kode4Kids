@@ -11,56 +11,56 @@ import UIKit
 class MADViewController: UIViewController {
 
     @IBAction func wimadTapped(_ sender: Any) {
-        let seventeenViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.seventeenViewController) as? SeventeenViewController
+        let fortynineViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.fortynineViewController) as? FortynineViewController
                             
-                            self.view.window?.rootViewController = seventeenViewController
+                            self.view.window?.rootViewController = fortynineViewController
                             self.view.window?.makeKeyAndVisible()
 
     }
     
     @IBAction func plTapped(_ sender: Any) {
-        let eighteenViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.eighteenViewController) as? EighteenViewController
+        let fiftyViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.fiftyViewController) as? FiftyViewController
                             
-                            self.view.window?.rootViewController = eighteenViewController
+                            self.view.window?.rootViewController = fiftyViewController
                             self.view.window?.makeKeyAndVisible()
     }
     
     @IBAction func langTapped(_ sender: Any) {
-        let nineteenViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.nineteenViewController) as? NineteenViewController
+        let fiftyoneViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.fiftyoneViewController) as? FiftyoneViewController
                             
-                            self.view.window?.rootViewController = nineteenViewController
+                            self.view.window?.rootViewController = fiftyoneViewController
                             self.view.window?.makeKeyAndVisible()
     }
     @IBAction func guiTapped(_ sender: Any) {
-        let twentyViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.twentyViewController) as? TwentyViewController
+        let fiftytwoViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.fiftytwoViewController) as? FiftytwoViewController
                             
-                            self.view.window?.rootViewController = twentyViewController
+                            self.view.window?.rootViewController = fiftytwoViewController
                             self.view.window?.makeKeyAndVisible()
     }
     @IBAction func prTapped(_ sender: Any) {
-        let twentyoneViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.twentyoneViewController) as? TwentyoneViewController
+        let fiftythreeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.fiftythreeViewController) as? FiftythreeViewController
                             
-                            self.view.window?.rootViewController = twentyoneViewController
+                            self.view.window?.rootViewController = fiftythreeViewController
                             self.view.window?.makeKeyAndVisible()
     }
     @IBAction func fedTapped(_ sender: Any) {
-        let twentytwoViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.twentytwoViewController) as? TwentytwoViewController
+        let fiftyfourViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.fiftyfourViewController) as? FiftyfourViewController
                             
-                            self.view.window?.rootViewController = twentytwoViewController
+                            self.view.window?.rootViewController = fiftyfourViewController
                             self.view.window?.makeKeyAndVisible()
     }
     @IBAction func bedTapped(_ sender: Any) {
         
-        let twentythreeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.twentythreeViewController) as? TwentythreeViewController
+        let fiftyfiveViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.fiftyfiveViewController) as? FiftyfiveViewController
                             
-                            self.view.window?.rootViewController = twentythreeViewController
+                            self.view.window?.rootViewController = fiftyfiveViewController
                             self.view.window?.makeKeyAndVisible()
     }
     @IBAction func trTapped(_ sender: Any) {
         
-        let twentyfourViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.twentyfourViewController) as? TwentyfourViewController
+        let fiftysixViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.fiftysixViewController) as? FiftysixViewController
                             
-                            self.view.window?.rootViewController = twentyfourViewController
+                            self.view.window?.rootViewController = fiftysixViewController
                             self.view.window?.makeKeyAndVisible()
     }
     
