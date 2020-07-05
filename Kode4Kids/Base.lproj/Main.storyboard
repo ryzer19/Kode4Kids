@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -623,7 +624,35 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jow-Kc-92h">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="h2n-ds-zOs">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9PY-a4-dDn">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="lkz-c1-utR">
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="SdG-Do-S0m">
+                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </collectionViewCellContentView>
+                                            </collectionViewCell>
+                                        </cells>
+                                    </collectionView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="h2n-ds-zOs" secondAttribute="bottom" id="JR1-FD-i7f"/>
+                                    <constraint firstItem="h2n-ds-zOs" firstAttribute="leading" secondItem="jow-Kc-92h" secondAttribute="leading" id="NT5-bU-hyD"/>
+                                    <constraint firstAttribute="trailing" secondItem="h2n-ds-zOs" secondAttribute="trailing" id="PDE-Pi-mPV"/>
+                                    <constraint firstItem="h2n-ds-zOs" firstAttribute="top" secondItem="jow-Kc-92h" secondAttribute="top" id="RTK-mb-oAy"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" name="Background"/>
@@ -650,7 +679,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6S9-cC-0Di" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5396" y="416"/>
+            <point key="canvasLocation" x="5395.652173913044" y="415.84821428571428"/>
         </scene>
         <!--About Us View Controller-->
         <scene sceneID="a54-ct-I46">
@@ -1108,7 +1137,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yAu-AA-lNS">
                                         <rect key="frame" x="0.0" y="94.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.42396268309466756" green="0.5" blue="0.35524495632415021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Web Design">
@@ -1125,7 +1154,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="018-ei-UNL">
                                         <rect key="frame" x="0.0" y="189" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.38276930276620591" green="0.5" blue="0.31642887539556808" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Programming Languages ">
@@ -1142,7 +1171,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jYo-uQ-ome">
                                         <rect key="frame" x="0.0" y="283.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.46280730892947136" green="0.5" blue="0.42004169880334014" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Web Development">
@@ -1159,7 +1188,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yPi-y5-PIa">
                                         <rect key="frame" x="0.0" y="378" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.37674953771292968" green="0.49049893747141171" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Mobile Application Development">
@@ -1176,7 +1205,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Dy-dY-jrR">
                                         <rect key="frame" x="0.0" y="472.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.29452942144820415" green="0.41343085940167179" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Cloud Computing">
@@ -1193,7 +1222,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IS2-Tw-IFe">
                                         <rect key="frame" x="0.0" y="567" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.31516088518261109" green="0.5" blue="0.37617887613890327" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Databases">
@@ -1210,7 +1239,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="55q-XP-cAT">
                                         <rect key="frame" x="0.0" y="661.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.25885222756893106" green="0.5" blue="0.47031236791944303" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Game Development">
@@ -1315,7 +1344,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N3O-cM-UJp">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.348516047" green="0.50867706540000002" blue="0.29407909510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Introduction to Computer Science ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="What is Programming?">
@@ -1333,7 +1362,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LY7-VY-Zwh">
                                         <rect key="frame" x="0.0" y="94.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.348516047" green="0.50867706540000002" blue="0.29407909510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Programming Languages">
@@ -1351,7 +1380,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5nA-fc-Ibp">
                                         <rect key="frame" x="0.0" y="189" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.348516047" green="0.50867706540000002" blue="0.29407909510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Python">
@@ -1369,7 +1398,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Yl-HR-Ihz">
                                         <rect key="frame" x="0.0" y="283.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.348516047" green="0.50867706540000002" blue="0.29407909510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Java">
@@ -1387,7 +1416,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ich-gD-W4x">
                                         <rect key="frame" x="0.0" y="378" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.348516047" green="0.50867706540000002" blue="0.29407909510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content=".NET">
@@ -1405,7 +1434,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Be7-hf-xa1">
                                         <rect key="frame" x="0.0" y="472.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.348516047" green="0.50867706540000002" blue="0.29407909510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="C#, C++">
@@ -1423,7 +1452,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7IB-bj-xtp">
                                         <rect key="frame" x="0.0" y="567" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.348516047" green="0.50867706540000002" blue="0.29407909510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Javascript">
@@ -1441,7 +1470,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pSn-cq-y9M">
                                         <rect key="frame" x="0.0" y="661.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.348516047" green="0.50867706540000002" blue="0.29407909510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Perl">
@@ -1569,7 +1598,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXX-oI-UGq">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.37674953770000003" green="0.49049893750000001" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Introduction to Computer Science ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="What is Mobile App Development?">
@@ -1587,7 +1616,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oNs-TH-17e">
                                         <rect key="frame" x="0.0" y="94.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.37674953770000003" green="0.49049893750000001" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Platforms ">
@@ -1605,7 +1634,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nIa-aQ-t6b">
                                         <rect key="frame" x="0.0" y="189" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.37674953770000003" green="0.49049893750000001" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Languages">
@@ -1623,7 +1652,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sJG-ug-Pzu">
                                         <rect key="frame" x="0.0" y="283.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.37674953770000003" green="0.49049893750000001" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="GUI/UI">
@@ -1641,7 +1670,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jYy-ex-HXT">
                                         <rect key="frame" x="0.0" y="378" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.37674953770000003" green="0.49049893750000001" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Programming">
@@ -1659,7 +1688,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rVo-A8-ozP">
                                         <rect key="frame" x="0.0" y="472.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.37674953770000003" green="0.49049893750000001" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Front End Development ">
@@ -1677,7 +1706,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IdN-oB-v39">
                                         <rect key="frame" x="0.0" y="567" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.37674953770000003" green="0.49049893750000001" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Back End Development ">
@@ -1695,7 +1724,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sd4-fn-OwY">
                                         <rect key="frame" x="0.0" y="661.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.37674953770000003" green="0.49049893750000001" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Testing ">
@@ -2051,7 +2080,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xl4-ec-pQW">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.25247931480000002" green="0.5078998804" blue="0.36468693610000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Introduction to Computer Science ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="What is a Databse?">
@@ -2069,7 +2098,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K1o-gE-fzM">
                                         <rect key="frame" x="0.0" y="94.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.25247931480000002" green="0.5078998804" blue="0.36468693610000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Types of Databases">
@@ -2087,7 +2116,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zXU-Wo-qXw">
                                         <rect key="frame" x="0.0" y="189" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.25247931480000002" green="0.5078998804" blue="0.36468693610000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Database Languages">
@@ -2105,7 +2134,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bj-GM-Jax">
                                         <rect key="frame" x="0.0" y="283.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.25247931480000002" green="0.5078998804" blue="0.36468693610000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Database Management Systems">
@@ -2123,7 +2152,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ISu-1j-wAO">
                                         <rect key="frame" x="0.0" y="378" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.25247931480000002" green="0.5078998804" blue="0.36468693610000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Design">
@@ -2141,7 +2170,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GKg-LX-eXI">
                                         <rect key="frame" x="0.0" y="472.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.25247931480000002" green="0.5078998804" blue="0.36468693610000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="DB Programming ">
@@ -2159,7 +2188,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i3i-GJ-gGs">
                                         <rect key="frame" x="0.0" y="567" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.25247931480000002" green="0.5078998804" blue="0.36468693610000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Concepts">
@@ -2177,7 +2206,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kLP-F8-U56">
                                         <rect key="frame" x="0.0" y="661.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.25247931480000002" green="0.5078998804" blue="0.36468693610000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Implementation">
@@ -2533,7 +2562,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aXS-Xa-nrh">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.3978176289" green="0.50429481269999998" blue="0.33211508550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Introduction to Computer Science ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Overview of the Internet">
@@ -2551,7 +2580,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fpq-fm-Yvx">
                                         <rect key="frame" x="0.0" y="94.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.3978176289" green="0.50429481269999998" blue="0.33211508550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Web Standards ">
@@ -2569,7 +2598,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HWo-sM-oxs">
                                         <rect key="frame" x="0.0" y="189" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.3978176289" green="0.50429481269999998" blue="0.33211508550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="HTML &amp; XHTML">
@@ -2587,7 +2616,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g5Z-RU-Xyl">
                                         <rect key="frame" x="0.0" y="283.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.3978176289" green="0.50429481269999998" blue="0.33211508550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Structural ">
@@ -2605,7 +2634,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9DZ-dY-DrR">
                                         <rect key="frame" x="0.0" y="378" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.3978176289" green="0.50429481269999998" blue="0.33211508550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Language Syntax">
@@ -2623,7 +2652,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nKa-BF-e7a">
                                         <rect key="frame" x="0.0" y="472.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.3978176289" green="0.50429481269999998" blue="0.33211508550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Optimisation ">
@@ -2641,7 +2670,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="roc-gg-uOd">
                                         <rect key="frame" x="0.0" y="567" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.3978176289" green="0.50429481269999998" blue="0.33211508550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Deployment ">
@@ -2659,7 +2688,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A2M-kc-ETZ">
                                         <rect key="frame" x="0.0" y="661.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.3978176289" green="0.50429481269999998" blue="0.33211508550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Advanced Topics">
@@ -3205,7 +3234,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UJY-6o-3qH">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.45448863509999998" green="0.50338202710000002" blue="0.41175150869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Introduction to Computer Science ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="What is Web Dev?">
@@ -3223,7 +3252,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ndj-yW-mtp">
                                         <rect key="frame" x="0.0" y="94.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.45448863509999998" green="0.50338202710000002" blue="0.41175150869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="SSS &amp; Frameworks">
@@ -3241,7 +3270,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dwK-OM-l4F">
                                         <rect key="frame" x="0.0" y="189" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.45448863509999998" green="0.50338202710000002" blue="0.41175150869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="DOM">
@@ -3259,7 +3288,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J1m-Ja-bcG">
                                         <rect key="frame" x="0.0" y="283.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.45448863509999998" green="0.50338202710000002" blue="0.41175150869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Client Side Scripting ">
@@ -3277,7 +3306,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NHh-Jz-mgR">
                                         <rect key="frame" x="0.0" y="378" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.45448863509999998" green="0.50338202710000002" blue="0.41175150869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Mark Up Languages">
@@ -3295,7 +3324,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zML-Rj-yxk">
                                         <rect key="frame" x="0.0" y="472.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.45448863509999998" green="0.50338202710000002" blue="0.41175150869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Frameworks">
@@ -3313,7 +3342,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hkO-JU-oG3">
                                         <rect key="frame" x="0.0" y="567" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.45448863509999998" green="0.50338202710000002" blue="0.41175150869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Security">
@@ -3331,7 +3360,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fve-yr-0IL">
                                         <rect key="frame" x="0.0" y="661.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.45448863509999998" green="0.50338202710000002" blue="0.41175150869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Advanced Topics">
@@ -3687,7 +3716,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xQP-BX-MVh">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.26296102999999998" green="0.41365951299999998" blue="0.50981843469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Introduction to Computer Science ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="What is Cloud Computing?">
@@ -3705,7 +3734,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aHF-0B-SPv">
                                         <rect key="frame" x="0.0" y="94.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.26296102999999998" green="0.41365951299999998" blue="0.50981843469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Cloud Types">
@@ -3723,7 +3752,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UuL-xA-oA0">
                                         <rect key="frame" x="0.0" y="189" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.26296102999999998" green="0.41365951299999998" blue="0.50981843469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Cloud Architecture">
@@ -3741,7 +3770,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I9K-e4-bPm">
                                         <rect key="frame" x="0.0" y="283.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.26296102999999998" green="0.41365951299999998" blue="0.50981843469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Storage">
@@ -3759,7 +3788,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="guF-b0-kb2">
                                         <rect key="frame" x="0.0" y="378" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.26296102999999998" green="0.41365951299999998" blue="0.50981843469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Security">
@@ -3777,7 +3806,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdN-uF-fm2">
                                         <rect key="frame" x="0.0" y="472.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.26296102999999998" green="0.41365951299999998" blue="0.50981843469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Cloud Computing">
@@ -3795,7 +3824,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c7u-iS-qBu">
                                         <rect key="frame" x="0.0" y="567" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.26296102999999998" green="0.41365951299999998" blue="0.50981843469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Data">
@@ -3813,7 +3842,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lJP-QE-rRr">
                                         <rect key="frame" x="0.0" y="661.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.26296102999999998" green="0.41365951299999998" blue="0.50981843469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Advanced Topics">
@@ -4169,7 +4198,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZEN-4h-Bry">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.1527718008" green="0.50637429950000001" blue="0.47058856490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Introduction to Computer Science ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="What is Game Development? ">
@@ -4187,7 +4216,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HHl-Mr-lqU">
                                         <rect key="frame" x="0.0" y="94.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.1527718008" green="0.50637429950000001" blue="0.47058856490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Design">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Design">
@@ -4205,7 +4234,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Apc-dr-fzU">
                                         <rect key="frame" x="0.0" y="189" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.1527718008" green="0.50637429950000001" blue="0.47058856490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Programming ">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Development Languages">
@@ -4223,7 +4252,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PBZ-dq-Bq0">
                                         <rect key="frame" x="0.0" y="283.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.1527718008" green="0.50637429950000001" blue="0.47058856490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Web Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Prototyping">
@@ -4241,7 +4270,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="354-Bm-OLo">
                                         <rect key="frame" x="0.0" y="378" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.1527718008" green="0.50637429950000001" blue="0.47058856490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Mobile Application Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Development Process">
@@ -4259,7 +4288,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eNH-Xg-Urj">
                                         <rect key="frame" x="0.0" y="472.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.1527718008" green="0.50637429950000001" blue="0.47058856490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Databases">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Development  Areas">
@@ -4277,7 +4306,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bmJ-CY-09O">
                                         <rect key="frame" x="0.0" y="567" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.1527718008" green="0.50637429950000001" blue="0.47058856490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Cloud Computing">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Production">
@@ -4296,7 +4325,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uji-Gq-aZQ">
                                         <rect key="frame" x="0.0" y="661.5" width="375" height="88.5"/>
-                                        <color key="backgroundColor" red="0.36829967060000002" green="0.5" blue="0.42269719010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.1527718008" green="0.50637429950000001" blue="0.47058856490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Game Development">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Future Technologies">
