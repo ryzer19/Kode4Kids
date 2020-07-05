@@ -22,10 +22,13 @@ class ProfileViewController: UIViewController {
     
     //declaring image variable to be optional
     var image: UIImage? = nil
+    
+    let email : String = (Auth.auth().currentUser?.email)!
 
     override func viewDidLoad() {
         super.viewDidLoad()
             setUpAvatar()
+        variableLabel.text = email
         // Do any additional setup after loading the view.
     }
         
