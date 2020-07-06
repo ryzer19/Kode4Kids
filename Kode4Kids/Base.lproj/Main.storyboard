@@ -707,20 +707,20 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Twitter logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="N7z-a3-tG8">
                                         <rect key="frame" x="8" y="455" width="133" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.89040821790000002" green="0.93371927740000005" blue="0.9098020792" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" name="Background"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Insta logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dcq-kq-v7F">
                                         <rect key="frame" x="143" y="455" width="134" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.89040821790000002" green="0.93371927740000005" blue="0.9098020792" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" name="Background"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YT logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="VJT-hV-ukk">
                                         <rect key="frame" x="279" y="455" width="127" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.89040821790000002" green="0.93371927740000005" blue="0.9098020792" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" name="Background"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Socials" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IuI-6N-cLh">
-                                        <rect key="frame" x="8" y="585" width="398" height="27"/>
+                                        <rect key="frame" x="8" y="584" width="398" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89040821790000002" green="0.93371927740000005" blue="0.9098020792" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -728,7 +728,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vci-W5-qFT">
-                                        <rect key="frame" x="8" y="614" width="398" height="30"/>
+                                        <rect key="frame" x="8" y="616" width="398" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89040821790000002" green="0.93371927740000005" blue="0.9098020792" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Twitter">
@@ -736,7 +736,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUM-V6-15r">
-                                        <rect key="frame" x="8" y="648" width="398" height="30"/>
+                                        <rect key="frame" x="8" y="650" width="398" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89040821790000002" green="0.93371927740000005" blue="0.9098020792" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Instagram">
@@ -744,7 +744,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liW-Kf-UHO">
-                                        <rect key="frame" x="8" y="682" width="398" height="30"/>
+                                        <rect key="frame" x="8" y="684" width="398" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89040821790000002" green="0.93371927740000005" blue="0.9098020792" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Youtube">
