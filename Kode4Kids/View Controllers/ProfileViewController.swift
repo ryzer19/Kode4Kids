@@ -23,6 +23,7 @@ class ProfileViewController: UIViewController {
     //declaring image variable to be optional
     var image: UIImage? = nil
     
+    //getting current logged in users email
     let email : String = (Auth.auth().currentUser?.email)!
 
     override func viewDidLoad() {
@@ -92,14 +93,26 @@ extension ProfileViewController: UIImagePickerControllerDelegate, UINavigationCo
             return
         }
         
+        
         guard let imageData = imageSelected.jpegData(compressionQuality: 0.4) else {
             return
-        }        
+        }
+        
 
         let storageRef = Storage.storage().reference(forURL: "gs://kode4kids-b877c.appspot.com/")
+        let storageProfileRef = storageRef.child("profile").child(Auth.auth().currentUser!.uid)
         let databaseRef = Database.database().reference()
         
-        
-    }
+        let metadata = StorageMetadata()
+        metadata.contentType = "image/jpeg"
+        storageProfileRef.putData(imageData, metadata: metadata, completion: { (StorageMetadata, error) in
+        if error != nil {
+            print(error?.localizedDescription)
+            return
+        }
+         
+    })
     
 }
+}
+
