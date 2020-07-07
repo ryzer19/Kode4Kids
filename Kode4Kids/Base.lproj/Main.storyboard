@@ -306,6 +306,94 @@
             </objects>
             <point key="canvasLocation" x="2742.0289855072465" y="468.75"/>
         </scene>
+        <!--Enrollment View Controller-->
+        <scene sceneID="n2M-B3-pax">
+            <objects>
+                <viewController id="F8I-nU-DrZ" userLabel="Enrollment View Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q3i-xu-xCD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="zAI-aY-qG3">
+                                <rect key="frame" x="10" y="30" width="394" height="124"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jCo-sj-QmS" userLabel="Row Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JjA-jS-2dq">
+                                                <rect key="frame" x="0.0" y="0.0" width="42" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1oc-gE-6X3">
+                                                <rect key="frame" x="42" y="0.0" width="352" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="g9X-U9-Lgw"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="A63-cU-mfW"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4MU-yi-hdl" userLabel="Row Stack View">
+                                        <rect key="frame" x="0.0" y="45" width="394" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9a-vD-2ym">
+                                                <rect key="frame" x="0.0" y="0.0" width="42" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lkC-Fj-Orp">
+                                                <rect key="frame" x="42" y="0.0" width="352" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="oj1-T5-jPn"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="H46-3T-JRU"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eu6-Y6-9fp" userLabel="Row Stack View">
+                                        <rect key="frame" x="0.0" y="90" width="394" height="34"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Okc-8a-m0N">
+                                                <rect key="frame" x="0.0" y="0.0" width="42" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SJt-lV-T0o">
+                                                <rect key="frame" x="42" y="0.0" width="352" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="QjD-Fd-jWf"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="uCH-d7-oAw" firstAttribute="bottom" secondItem="zAI-aY-qG3" secondAttribute="bottom" constant="30" id="0gf-p0-tlJ"/>
+                            <constraint firstItem="uCH-d7-oAw" firstAttribute="trailing" secondItem="zAI-aY-qG3" secondAttribute="trailing" constant="10" id="7J7-Vd-ACZ"/>
+                            <constraint firstItem="zAI-aY-qG3" firstAttribute="top" secondItem="uCH-d7-oAw" secondAttribute="top" constant="30" id="IH2-pQ-gi0"/>
+                            <constraint firstItem="zAI-aY-qG3" firstAttribute="leading" secondItem="uCH-d7-oAw" secondAttribute="leading" constant="10" id="Ob8-JW-zFg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uCH-d7-oAw"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pPi-SC-1kf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cmb-Fh-r5V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4302.898550724638" y="-466.07142857142856"/>
+        </scene>
         <!--Reset View Controller-->
         <scene sceneID="X1v-83-FFs">
             <objects>
@@ -400,6 +488,99 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Czw-1I-RPH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2742" y="1195"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GgP-Ta-hwu">
+            <objects>
+                <viewController id="xC3-vo-r6k" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FXg-AT-qBf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXh-fp-Edl">
+                                <rect key="frame" x="103" y="20" width="208" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Our Humanitarian Efforts">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" minimumZoomScale="0.0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GFo-pn-137">
+                                <rect key="frame" x="15" y="48" width="384" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Disasters hit the poorest communities the hardest. K4K humanitarian aid program provides needs-based humanitarian aid to people affected by natural or man-made disasters. Our aims are twofold: to save lives and to strengthen communities in coping with future crises. People affected by disaster have incredible capacities for survival and recovery.              </string>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10" translatesAutoresizingMaskIntoConstraints="NO" id="45n-YT-BIQ">
+                                <rect key="frame" x="15" y="223" width="384" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" minimumZoomScale="0.0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Da4-Wp-ckr">
+                                <rect key="frame" x="15" y="359" width="384" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">K4K has a long history of offering humanitarian relief to the people who need it most. We are part of the Caritas network, of the Dutch Relief Alliance and of the Dutch Cooperating Aid Organizations (SHO – Giro555). Together, and in close collaboration with local civil society organizations, we respond to acute crises all over the world.</string>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="one" translatesAutoresizingMaskIntoConstraints="NO" id="fEo-k1-Kn5">
+                                <rect key="frame" x="220" y="534" width="179" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="two" translatesAutoresizingMaskIntoConstraints="NO" id="oHi-d4-kxi">
+                                <rect key="frame" x="15" y="534" width="205" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ltm-yU-DY6">
+                                <rect key="frame" x="15" y="660" width="384" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="K4k happily accepts donations from our users via PayPal. To donate press &quot;Donate Now&quot; and send a gift to K4K@gmail.com">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="16" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BPi-Jp-LVn">
+                                <rect key="frame" x="15" y="737" width="384" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="BackgroundColour"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Donate Now">
+                                            <attributes>
+                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="15" name="Chalkduster"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mXh-fp-Edl" firstAttribute="leading" secondItem="0R6-yW-8KI" secondAttribute="leading" constant="103" id="Mgz-g5-MBP"/>
+                            <constraint firstItem="0R6-yW-8KI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mXh-fp-Edl" secondAttribute="trailing" symbolic="YES" id="a7E-Mv-7tx"/>
+                            <constraint firstItem="mXh-fp-Edl" firstAttribute="top" secondItem="0R6-yW-8KI" secondAttribute="top" constant="20" id="sAb-JK-Gpu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0R6-yW-8KI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="P68-3z-cmq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HFX-7b-5cX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4302.898550724638" y="407.8125"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="4ut-zW-pb0">
@@ -667,6 +848,9 @@
                                         <state key="normal" title="Enroll Now">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="F8I-nU-DrZ" kind="show" id="q2f-Vb-Yvu"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hB7-IF-0zd">
                                         <rect key="frame" x="8" y="237" width="398" height="15"/>
@@ -695,6 +879,9 @@
                                         <state key="normal" title="Read More..">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="xC3-vo-r6k" kind="show" id="amP-Ia-94t"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JS-Ge-6et">
                                         <rect key="frame" x="8" y="440" width="398" height="14"/>
@@ -4782,7 +4969,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eqH-fr-J1S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4601" y="1158"/>
+            <point key="canvasLocation" x="4304" y="1195"/>
         </scene>
         <!--Forum View Controller-->
         <scene sceneID="DaR-Ma-Uuj">
@@ -5226,6 +5413,7 @@
         <segue reference="WuO-nF-iIw"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="10" width="768" height="372"/>
         <image name="Image" width="1024" height="576"/>
         <image name="Insta logo.png" width="15.882352828979492" height="15.882352828979492"/>
         <image name="Kode4KidsLogo.png" width="1024" height="576"/>
@@ -5241,9 +5429,11 @@
         <image name="istockphoto-1152502981-170667a" width="513" height="337"/>
         <image name="list.dash" catalog="system" width="128" height="85"/>
         <image name="message.fill" catalog="system" width="128" height="113"/>
+        <image name="one" width="275" height="183"/>
         <image name="person.circle.fill" catalog="system" width="128" height="121"/>
         <image name="suit.heart.fill" catalog="system" width="128" height="109"/>
         <image name="technology-5246655__480" width="898" height="480"/>
+        <image name="two" width="300" height="168"/>
         <namedColor name="Background">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
