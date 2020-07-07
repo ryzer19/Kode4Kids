@@ -457,7 +457,7 @@
                                             <color key="NSColor" red="0.19608" green="0.19608" blue="0.19608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="AndaleMono"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
                                             <color key="NSStrokeColor" red="0.19608" green="0.19608" blue="0.19608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
