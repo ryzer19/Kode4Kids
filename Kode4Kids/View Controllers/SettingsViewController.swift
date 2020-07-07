@@ -6,19 +6,21 @@
 //  Copyright © 2020 Group9. All rights reserved.
 //
 
+//imports, allowing user notification
 import UIKit
 import UserNotifications
 
 class SettingsViewController: UIViewController {
 
-    
+    //outlets from storyboard
     @IBOutlet weak var Appearance: UISegmentedControl!
     @IBOutlet weak var Settings: UIButton!
 
     
-    
+    //function first to run when page loads
     override func viewDidLoad() {
         super.viewDidLoad()
+        
             //importing notification center function
         let center = UNUserNotificationCenter.current()
         
@@ -34,7 +36,7 @@ class SettingsViewController: UIViewController {
     content.badge = 1
         
         
-    //trigger
+    //trigger set to 5 seconds after page load
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
     
     //notification request
@@ -49,6 +51,7 @@ class SettingsViewController: UIViewController {
         
     }
     
+    //when settings button tapped,bring user to iPhone settings of that app
     @IBAction func settingsTapped(_ sender: Any) {
         if let settingUrl = URL(string:UIApplication.openSettingsURLString) {
 
@@ -59,6 +62,7 @@ class SettingsViewController: UIViewController {
         }
 }
         
+    //when back button is tapped, go to home page
     @IBAction func backTapped(_ sender: Any) {
        
         let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
@@ -68,7 +72,7 @@ class SettingsViewController: UIViewController {
         
     }
     
-    
+    //function to allow appearance to be changed
     @IBAction func Appearance(_ sender: Any) {
         switch Appearance.selectedSegmentIndex{
         case 0:

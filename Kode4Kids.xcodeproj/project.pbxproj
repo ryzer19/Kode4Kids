@@ -80,8 +80,6 @@
 		1C85D8EB24AFDA0E00EC78A7 /* GameDevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8EA24AFDA0E00EC78A7 /* GameDevViewController.swift */; };
 		1C85D8ED24B1212E00EC78A7 /* WebDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8EC24B1212E00EC78A7 /* WebDViewController.swift */; };
 		1C85D8EF24B132DD00EC78A7 /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8EE24B132DD00EC78A7 /* SixViewController.swift */; };
-		1C85D8F524B2592000EC78A7 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D8F324B2592000EC78A7 /* ItemCell.swift */; };
-		1C85D8F624B2592000EC78A7 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C85D8F424B2592000EC78A7 /* ItemCell.xib */; };
 		682226AA91FBC1CF9B8D0463 /* Pods_Kode4KidsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC5EF1E002E08B8FDA76CA9 /* Pods_Kode4KidsTests.framework */; };
 		7F035EDD2475580100E3EFAA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F035EDC2475580100E3EFAA /* Utilities.swift */; };
 		7F4FE22324755EA000A287F5 /* Kode4KidsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4FE22024755EA000A287F5 /* Kode4KidsLogo.png */; };
@@ -201,8 +199,6 @@
 		1C85D8EA24AFDA0E00EC78A7 /* GameDevViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDevViewController.swift; sourceTree = "<group>"; };
 		1C85D8EC24B1212E00EC78A7 /* WebDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDViewController.swift; sourceTree = "<group>"; };
 		1C85D8EE24B132DD00EC78A7 /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
-		1C85D8F324B2592000EC78A7 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
-		1C85D8F424B2592000EC78A7 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 		1E58B2BCEA2D2AE164E867D3 /* Pods-Kode4Kids.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4Kids.debug.xcconfig"; path = "Target Support Files/Pods-Kode4Kids/Pods-Kode4Kids.debug.xcconfig"; sourceTree = "<group>"; };
 		3AB115DD4E266FC864B7977B /* Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kode4Kids-Kode4KidsUITests/Pods-Kode4Kids-Kode4KidsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F035EDC2475580100E3EFAA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -285,15 +281,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1C85D8F024B256F900EC78A7 /* ItemCell */ = {
-			isa = PBXGroup;
-			children = (
-				1C85D8F324B2592000EC78A7 /* ItemCell.swift */,
-				1C85D8F424B2592000EC78A7 /* ItemCell.xib */,
-			);
-			path = ItemCell;
-			sourceTree = "<group>";
-		};
 		7F035EDE2475580700E3EFAA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,7 +328,6 @@
 		7FD1D7092471C6C8009739DB /* Kode4Kids */ = {
 			isa = PBXGroup;
 			children = (
-				1C85D8F024B256F900EC78A7 /* ItemCell */,
 				7F4FE21E24755E7E00A287F5 /* Images */,
 				7FE2D73B2474871C006A954F /* View Controllers */,
 				7FD1D70A2471C6C8009739DB /* AppDelegate.swift */,
@@ -586,7 +572,6 @@
 				7F59B63624AA3EF7004E3766 /* Twitter logo.png in Resources */,
 				7F4FE22324755EA000A287F5 /* Kode4KidsLogo.png in Resources */,
 				7F4FE2292475648400A287F5 /* GoogleService-Info.plist in Resources */,
-				1C85D8F624B2592000EC78A7 /* ItemCell.xib in Resources */,
 				7FD1D7142471C6CA009739DB /* Assets.xcassets in Resources */,
 				7F75719324A9FC58003080FB /* Insta logo.png in Resources */,
 				7F59B63924AA3F0D004E3766 /* YT logo.png in Resources */,
@@ -749,7 +734,6 @@
 				7FD1D70D2471C6C8009739DB /* SceneDelegate.swift in Sources */,
 				1C85D8C724AE367D00EC78A7 /* FortyfiveViewController.swift in Sources */,
 				1C85D8E124AFD8DB00EC78A7 /* ProgrammingViewController.swift in Sources */,
-				1C85D8F524B2592000EC78A7 /* ItemCell.swift in Sources */,
 				1C85D8AD24AE32D900EC78A7 /* ThirtytwoViewController.swift in Sources */,
 				1C85D89F24AE30EC00EC78A7 /* TwentyfiveViewController.swift in Sources */,
 				1C433AB2249ACD3C008977F2 /* SubjectsViewController.swift in Sources */,

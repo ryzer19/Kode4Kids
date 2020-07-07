@@ -6,6 +6,7 @@
 //  Copyright © 2020 Group9. All rights reserved.
 //
 
+//imports
 import UIKit
 import Firebase
 import FirebaseAuth
@@ -15,23 +16,40 @@ import FirebaseDatabase
 
 
 class ProfileViewController: UIViewController {
+    
+    //inputs from main.storyboard
     @IBOutlet weak var avatar: UIImageView!
     @IBOutlet weak var variableLabel: UILabel!
-    
-    var db: Firestore!
-    
+    @IBOutlet weak var todayTask: UITextField!
+        
     //declaring image variable to be optional
     var image: UIImage? = nil
     
     //getting current logged in users email
     let email : String = (Auth.auth().currentUser?.email)!
+    
+    //user defaults to save default data
+    let defaults = UserDefaults.standard
+    
+    //structured variables declared
+    struct Keys {
+        static let todaysTask = "todaysTask"
+    }
 
+    //first function ran when the page loads successfully
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+            //callingt functions
             setUpAvatar()
+            checkForTask()
+        
+        //set variableLabel as current users email
         variableLabel.text = email
         // Do any additional setup after loading the view.
     }
+    
+    
         
     //styling for the imageview avatar
     func setUpAvatar(){
@@ -41,6 +59,7 @@ class ProfileViewController: UIViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(presentPicker))
         avatar.addGestureRecognizer(tapGesture)
     }
+    
     //objective c function to present image picker to user
    @objc func presentPicker(){
         let picker = UIImagePickerController()
@@ -61,15 +80,39 @@ class ProfileViewController: UIViewController {
 
     }
     
-}
+    //check if a user has previously entered their daily tasks
+    func checkForTask(){
+        let today = defaults.value(forKey: Keys.todaysTask) as? String ?? ""
+        todayTask.text = today
+    }
+    
+    //button to save new daily task
+    @IBAction func saveToday(_ sender: Any) {
+        saveTask()
+    }
+    
+    //function to save new daily task from text field
+    func saveTask(){
+        defaults.set(todayTask.text!, forKey: Keys.todaysTask)
+    }
+    
+    @IBAction func logoutTapped(_ sender: Any) {
+        
+        let loginViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.loginViewController) as? LoginViewController
+        
+        self.view.window?.rootViewController = loginViewController
+        self.view.window?.makeKeyAndVisible()
 
+    }
+
+}
 
 
     //extension to allow the image picker function
 extension ProfileViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
        
-        //updates with new image
+        //updates image view with new image
         if let imageSelected = info[UIImagePickerController.InfoKey.editedImage] as?
             UIImage {
             image = imageSelected
@@ -87,32 +130,37 @@ extension ProfileViewController: UIImagePickerControllerDelegate, UINavigationCo
         picker.dismiss(animated: true, completion: nil)
 }
     
+    //button to save image to DB
     @IBAction func imageSaved(_ sender: Any){
         guard let imageSelected = self.image else {
             print("Avatar is nil")
             return
         }
-        
-        
+                
+        //sets data type & quality for the saved image
         guard let imageData = imageSelected.jpegData(compressionQuality: 0.4) else {
             return
         }
         
-
+        //variables to access DB references
         let storageRef = Storage.storage().reference(forURL: "gs://kode4kids-b877c.appspot.com/")
         let storageProfileRef = storageRef.child("profile").child(Auth.auth().currentUser!.uid)
-        let databaseRef = Database.database().reference()
         
+        //metadata displayed on database within the image
         let metadata = StorageMetadata()
         metadata.contentType = "image/jpeg"
         storageProfileRef.putData(imageData, metadata: metadata, completion: { (StorageMetadata, error) in
         if error != nil {
-            print(error?.localizedDescription)
+            print(error?.localizedDescription as Any)
             return
         }
-         
     })
+            
     
 }
+    
+    
+        
 }
+
 
