@@ -1015,6 +1015,9 @@
                                         <state key="normal" title="Twitter">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="twiTapped:" destination="OaE-OZ-Yo6" eventType="touchUpInside" id="I6K-lQ-Eui"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUM-V6-15r">
                                         <rect key="frame" x="8" y="650" width="398" height="30"/>
@@ -1023,6 +1026,9 @@
                                         <state key="normal" title="Instagram">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="insTapped:" destination="OaE-OZ-Yo6" eventType="touchUpInside" id="azF-EB-bi5"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liW-Kf-UHO">
                                         <rect key="frame" x="8" y="684" width="398" height="30"/>
@@ -1031,6 +1037,9 @@
                                         <state key="normal" title="Youtube">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="ytTapped:" destination="OaE-OZ-Yo6" eventType="touchUpInside" id="wDL-Wm-Opd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" name="BackgroundColour"/>
@@ -1645,7 +1654,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.89040821790000002" green="0.93371927740000005" blue="0.9098020792" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="OJP-T7-bwX" firstAttribute="top" secondItem="cvO-SJ-9SQ" secondAttribute="top" id="3NB-9e-Wn6"/>
                             <constraint firstItem="OJP-T7-bwX" firstAttribute="leading" secondItem="cvO-SJ-9SQ" secondAttribute="leading" id="8w5-uF-ebO"/>

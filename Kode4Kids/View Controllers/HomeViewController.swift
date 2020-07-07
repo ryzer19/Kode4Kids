@@ -11,6 +11,16 @@ import UIKit
 class HomeViewController: UIViewController {
 
   
+    @IBAction func twiTapped(_ sender: UIButton) {
+        
+        UIApplication.shared.open(URL(string:"https://twitter.com/Kode4K")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func insTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func ytTapped(_ sender: UIButton) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
