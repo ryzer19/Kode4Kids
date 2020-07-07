@@ -831,7 +831,6 @@
                                             </attributedString>
                                         </state>
                                         <connections>
-                                            <action selector="nTapped:" destination="OaE-OZ-Yo6" eventType="touchUpInside" id="FLh-GU-ZAV"/>
                                             <action selector="neTapped:" destination="OaE-OZ-Yo6" eventType="touchUpInside" id="Fxl-qn-qQy"/>
                                         </connections>
                                     </button>
@@ -5611,8 +5610,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8kx-8h-JfP"/>
-        <segue reference="WuO-nF-iIw"/>
+        <segue reference="YTw-R9-YVa"/>
+        <segue reference="smc-4c-JbH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="10" width="768" height="372"/>
