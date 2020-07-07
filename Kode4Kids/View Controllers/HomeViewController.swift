@@ -17,9 +17,15 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func insTapped(_ sender: UIButton) {
+        
+        UIApplication.shared.open(URL(string:"https://www.instagram.com/k4k.ed/")! as URL, options: [:], completionHandler: nil)
+     
+        
     }
     
     @IBAction func ytTapped(_ sender: UIButton) {
+    
+    UIApplication.shared.open(URL(string:"https://www.youtube.com/channel/UCqSXlpnkQY_lhSnVQoQ38lQ/videos")! as URL, options: [:], completionHandler: nil)
     }
     
     override func viewDidLoad() {
