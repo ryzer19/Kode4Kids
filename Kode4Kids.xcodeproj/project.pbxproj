@@ -16,6 +16,7 @@
 		1C433AB8249ACDAA008977F2 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB7249ACDAA008977F2 /* AboutUsViewController.swift */; };
 		1C433ABA249ACDC3008977F2 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433AB9249ACDC3008977F2 /* NewsViewController.swift */; };
 		1C433ABC249ACE2A008977F2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */; };
+		1C517F9D24B518A600182480 /* DonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C517F9C24B518A600182480 /* DonationViewController.swift */; };
 		1C85D86724A5AA9A00EC78A7 /* IntrotoCSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D86624A5AA9A00EC78A7 /* IntrotoCSViewController.swift */; };
 		1C85D86B24AE270C00EC78A7 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D86A24AE270C00EC78A7 /* OneViewController.swift */; };
 		1C85D86F24AE29BC00EC78A7 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85D86E24AE29BC00EC78A7 /* ThreeViewController.swift */; };
@@ -135,6 +136,7 @@
 		1C433AB7249ACDAA008977F2 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		1C433AB9249ACDC3008977F2 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		1C433ABB249ACE2A008977F2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1C517F9C24B518A600182480 /* DonationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationViewController.swift; sourceTree = "<group>"; };
 		1C85D86624A5AA9A00EC78A7 /* IntrotoCSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrotoCSViewController.swift; sourceTree = "<group>"; };
 		1C85D86A24AE270C00EC78A7 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 		1C85D86E24AE29BC00EC78A7 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
@@ -371,6 +373,7 @@
 				1C433AAF249ACCE3008977F2 /* ProfileViewController.swift */,
 				1C433AB1249ACD3C008977F2 /* SubjectsViewController.swift */,
 				1C433AB3249ACD60008977F2 /* NotesViewController.swift */,
+				1C517F9C24B518A600182480 /* DonationViewController.swift */,
 				1C433AB5249ACD8A008977F2 /* ForumViewController.swift */,
 				06D0CDAA24B147B000339997 /* Models */,
 				06D9D48324B1111A004F934B /* ForumViewCell.xib */,
@@ -735,6 +738,7 @@
 				1C85D8C724AE367D00EC78A7 /* FortyfiveViewController.swift in Sources */,
 				1C85D8E124AFD8DB00EC78A7 /* ProgrammingViewController.swift in Sources */,
 				1C85D8AD24AE32D900EC78A7 /* ThirtytwoViewController.swift in Sources */,
+				1C517F9D24B518A600182480 /* DonationViewController.swift in Sources */,
 				1C85D89F24AE30EC00EC78A7 /* TwentyfiveViewController.swift in Sources */,
 				1C433AB2249ACD3C008977F2 /* SubjectsViewController.swift in Sources */,
 				1C85D8CD24AE36C300EC78A7 /* FortyeightViewController.swift in Sources */,

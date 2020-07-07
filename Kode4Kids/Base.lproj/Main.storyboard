@@ -586,7 +586,7 @@
         <!--Donation View Controller-->
         <scene sceneID="GgP-Ta-hwu">
             <objects>
-                <viewController id="xC3-vo-r6k" userLabel="Donation View Controller" sceneMemberID="viewController">
+                <viewController id="xC3-vo-r6k" userLabel="Donation View Controller" customClass="DonationViewController" customModule="Kode4Kids" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FXg-AT-qBf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -660,6 +660,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="donTapped:" destination="xC3-vo-r6k" eventType="touchUpInside" id="CKt-FX-Jvj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
