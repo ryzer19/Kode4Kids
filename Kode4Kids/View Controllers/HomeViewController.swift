@@ -10,7 +10,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
-  
+  //hyperlinks for buttons on home pg
+    
     @IBAction func twiTapped(_ sender: UIButton) {
         
         UIApplication.shared.open(URL(string:"https://twitter.com/Kode4K")! as URL, options: [:], completionHandler: nil)
@@ -22,11 +23,7 @@ class HomeViewController: UIViewController {
      
         
     }
-    
-    @IBAction func ytTapped(_ sender: UIButton) {
-    
-    UIApplication.shared.open(URL(string:"https://www.youtube.com/channel/UCqSXlpnkQY_lhSnVQoQ38lQ/videos")! as URL, options: [:], completionHandler: nil)
-    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
