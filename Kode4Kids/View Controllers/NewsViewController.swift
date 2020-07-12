@@ -12,7 +12,7 @@ import SwiftyJSON
 import SDWebImageSwiftUI
 
 
-
+//teh code for this entire page has no errors but does not show when ran in xcode. Loads a blank page
 class NewsViewController: UIViewController {
     
     @IBAction func backTapped(_ sender: Any) {
@@ -43,7 +43,7 @@ class NewsViewController: UIViewController {
                                     Text(i.title).fontWeight(.heavy)
                                     Text(i.desc)
                                 }
-                                
+                                //to display picture for news headline
                             WebImage(url: URL(string: i.image)!, options: .highPriority, context: nil)
                                 
                             }.padding(.vertical, 15)
@@ -51,14 +51,11 @@ class NewsViewController: UIViewController {
                 }
             }
         }
-            
-            
-                
 
             //NEWS PAGE API
             
             struct dataType : Identifiable {
-                
+                //show the title, description, link and image of an article
                 var id : String
                 var title : String
                 var desc : String
@@ -70,9 +67,9 @@ class NewsViewController: UIViewController {
                 @Published var datas = [dataType]()
                 
                 init() {
-                    
+                    //load data from this news source
                     let source = "http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=5ba06ee74ea14df482f5e1e42cb4f9bc"
-                    
+                    //let the url lead user to the news source
                     let url = URL(string: source)!
                     
                     let session = URLSession(configuration: .default)
@@ -93,88 +90,13 @@ class NewsViewController: UIViewController {
                             let url = i.1["url"].stringValue
                             let image = i.1["image"].stringValue
                             let id = i.1["publishedAt"].stringValue
-                            
+                            DispatchQueue.main.async {
                             self.datas.append(dataType(id: id, title: title, desc: description, url: url, image: image))
-                        }
-                        
+                            }
                     }
-                }
+                }.resume()
             }
-    }
-    
-    struct NewsViewController: View {
-        
-        @ObservedObject var list = getData()
-        
-        var body: some View{
-            
-            NavigationView{
-                
-                List(list.datas){i in
-                    
-                    HStack(spacing: 15){
-                        
-                        VStack(alignment: .leading, spacing: 10){
-                            Text(i.title).fontWeight(.heavy)
-                            Text(i.desc)
-                        }
-                        
-                    WebImage(url: URL(string: i.image)!, options: .highPriority, context: nil)
-                        
-                    }.padding(.vertical, 15)
-                }.navigationBarTitle("Headlines")
         }
     }
 }
-    
-
-    //NEWS PAGE API
-    
-    struct dataType : Identifiable {
-        
-        var id : String
-        var title : String
-        var desc : String
-        var url : String
-        var image : String
-    }
-    
-    class getData : ObservableObject{
-        @Published var datas = [dataType]()
-        
-        init() {
-            
-            let source = "http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=5ba06ee74ea14df482f5e1e42cb4f9bc"
-            
-            let url = URL(string: source)!
-            
-            let session = URLSession(configuration: .default)
-            
-            session.dataTask(with: url) { (data, _, err) in
-                
-                if err != nil{
-                    print((err?.localizedDescription)!)
-                    return
-                }
-                
-                let json = try! JSON(data: data!)
-                
-                for i in json["articles"]{
-                    
-                    let title = i.1["title"].stringValue
-                    let description = i.1["description"].stringValue
-                    let url = i.1["url"].stringValue
-                    let image = i.1["image"].stringValue
-                    let id = i.1["publishedAt"].stringValue
-                    
-                    DispatchQueue.main.async {
-                        self.datas.append(dataType(id: id, title: title, desc: description, url: url, image:  image))
-                    }
-
-                }
-            }.resume()
-        }
-    }
-}
-
 

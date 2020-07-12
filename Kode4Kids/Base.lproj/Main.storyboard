@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zGd-We-cNh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OaE-OZ-Yo6">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -755,8 +755,7 @@
                                             </attributedString>
                                         </state>
                                         <connections>
-                                            <action selector="hTapped:" destination="OaE-OZ-Yo6" eventType="touchUpInside" id="FSP-PU-8gz"/>
-                                            <action selector="pTapped:" destination="OaE-OZ-Yo6" eventType="touchUpInside" id="M37-Gy-nqB"/>
+                                            <action selector="hoTapped:" destination="OaE-OZ-Yo6" eventType="touchUpInside" id="tsQ-D5-vsq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8aV-H8-zZw" userLabel="Profile">

@@ -14,14 +14,12 @@ class ForumViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
 
 
-    
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        
+        //what the frame for each post should look like
         tableView = UITableView(frame: view.bounds, style: .plain)
         tableView.backgroundColor = UIColor.white
         let cellNib = UINib(nibName: "ForumViewCell", bundle: nil)
@@ -40,7 +38,7 @@ class ForumViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tableView.topAnchor.constraint(equalTo: layoutGuide.topAnchor).isActive = true
         tableView.trailingAnchor.constraint(equalTo: layoutGuide.trailingAnchor).isActive = true
         tableView.bottomAnchor.constraint(equalTo: layoutGuide.bottomAnchor).isActive = true
-        
+        //these are thee constraints for eacj side of the ForumViewCell
         tableView.delegate = self
         tableView.dataSource = self
         tableView.reloadData()
@@ -50,7 +48,7 @@ class ForumViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-    
+    //how many ForumViewCells will display on the page at each time
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 8
     }
@@ -58,9 +56,9 @@ class ForumViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        tableView.dequeueReusableCell(withIdentifier: "ForumCell", for: indexPath) // since you're not doing any additional stuff here this would do
+        tableView.dequeueReusableCell(withIdentifier: "ForumCell", for: indexPath) //
     }
-    
+    //back button (doesnt work)
     @IBAction func backTapped(_ sender: Any) {
     
      let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
