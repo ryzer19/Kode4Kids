@@ -14,9 +14,14 @@ class ForumViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
 
 
+    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
         tableView = UITableView(frame: view.bounds, style: .plain)
         tableView.backgroundColor = UIColor.white
         let cellNib = UINib(nibName: "ForumViewCell", bundle: nil)
@@ -42,27 +47,26 @@ class ForumViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     
-    
-    
-    @IBAction func backTapped(_ sender: Any) {
-        
-        let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
-                       
-                       self.view.window?.rootViewController = homeViewController
-                       self.view.window?.makeKeyAndVisible()
-    }
-    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 12
+        return 8
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         tableView.dequeueReusableCell(withIdentifier: "ForumCell", for: indexPath) // since you're not doing any additional stuff here this would do
     }
+    
+    @IBAction func backTapped(_ sender: Any) {
+    
+     let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+     
+     self.view.window?.rootViewController = homeViewController
+     self.view.window?.makeKeyAndVisible()
 
+}
 }
